@@ -9,6 +9,7 @@ import NetlifyFormReact from './components/pages/NetlifyFormReact';
 import WhitespaceReact from './components/pages/WhitespaceReact';
 
 import Navigation from './components/layout/Navigation';
+import Footer from './components/layout/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -40,6 +41,7 @@ const App = () => {
           </div>
         </Fragment>
       </Router>
+      <Footer />
     </div>
   );
 };

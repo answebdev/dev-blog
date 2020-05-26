@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import ScrollUpButton from 'react-scroll-up-button';
 import ws1 from '../../img/ws01.png';
 import ws2 from '../../img/ws02.png';
 import ws3 from '../../img/ws03.png';
@@ -29,6 +30,29 @@ const WhitespaceReact = () => {
             <p>
               <strong>The problem: </strong>Unwanted whitespace in the browser
               in a React app.
+            </p>
+
+            <p>
+              <a
+                src={whitespace}
+                href={whitespace}
+                rel='noopener noreferrer'
+                target='_blank'
+                style={{ padding: '0' }}
+              >
+                <i class='fas fa-file-download' style={{ color: '#3e63bd' }}>
+                  &nbsp;&nbsp;
+                  <span
+                    style={{
+                      fontFamily: 'Oxygen',
+                      fontSize: '16px',
+                      color: '#3e63bd',
+                    }}
+                  >
+                    Download The Notes Here
+                  </span>
+                </i>
+              </a>
             </p>
             <p>
               I came across this issue when I was working on a project in React.
@@ -102,29 +126,20 @@ const WhitespaceReact = () => {
             </p>
             <br />
 
-            <a
-              src={whitespace}
-              href={whitespace}
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <i class='fas fa-file-download' style={{ color: '#3e63bd' }}>
-                &nbsp;&nbsp;
-                <span
-                  style={{
-                    fontFamily: 'Oxygen',
-                    fontSize: '16px',
-                    color: '#3e63bd',
-                  }}
-                >
-                  Download The Notes Here
-                </span>
-              </i>
-            </a>
-            <br />
             <br />
           </Col>
         </Row>
+
+        <div>
+          <ScrollUpButton
+            style={{
+              marginBottom: '33px',
+              marginRight: '-15px',
+              background: '#ff6347',
+              borderRadius: '5px',
+            }}
+          />
+        </div>
       </Container>
     </div>
   );
