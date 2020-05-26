@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utilities */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  background-color: #3e63bd !important;
+  border-bottom: solid 1px var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.nav-title {
+  color: #ffeeff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding-bottom: 0.5em;
+  /* margin-bottom: -10px; */
+}
+
+#links {
+  color: #c7d1d8 !important;
+}
+
+#links {
+  margin-bottom: -15px;
+  float: inherit;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  color: #fff;
+  /* padding: 0.45rem; */
+  margin: 0 0.25rem;
+  margin-bottom: -30px;
+}
+
+.navbar a:hover {
+  color: var(--light-color);
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+/* End Navbar */
+
+a {
+  /* color: #007bff; */
+  color: #ffeeff;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0 10px;
+}
+
+a:hover {
+  color: #c7d1d8;
+  /* color: #5b727f; */
+  text-decoration: none;
+}
+
+#back-div {
+  text-align: center;
+}
+
+#error-msg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#error-btn {
+  background: #3e63bd;
+  border-color: #3e63bd;
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+  /* body {
+    background-color: red;
+  } */
+
+  .nav-title {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  /* body {
+    background-color: yellow;
+  } */
+
+  .nav-title {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  /* body {
+    background-color: steelblue;
+  } */
+
+  .nav-title {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 640px) {
+  /* body {
+    background-color: brown;
+  } */
+
+  .navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .nav-title {
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  /* body {
+    background-color: salmon;
+  } */
+
+  .navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .nav-title {
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 470px) {
+  /* body {
+    background-color: black;
+  } */
+
+  .navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .nav-title {
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+
+  #brand-link {
+    float: inline-end;
+    margin-top: 5px;
+    margin-bottom: -60px;
+    font-size: 28px;
+  }
+
+  #brand-link {
+    float: inline-end;
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 430px) {
+  /* body {
+    background-color: burlywood;
+  } */
+
+  .navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .nav-title {
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+
+  #brand-link {
+    float: inline-end;
+    margin-top: 5px;
+    margin-bottom: -60px;
+    font-size: 28px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 400px) {
+  /* body {
+    background-color: pink;
+  } */
+
+  .navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .nav-title {
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+
+  #brand-link {
+    float: inline-end;
+    margin-top: 12px;
+    margin-bottom: -60px;
+    font-size: 18px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+}
