@@ -175,6 +175,8 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
+#guides-btn,
+#shorts-btn,
 #error-btn {
   background: #ff6347;
   border-color: #ff6347;

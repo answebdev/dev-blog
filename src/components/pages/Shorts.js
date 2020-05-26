@@ -11,58 +11,59 @@ const Shorts = () => {
       </Helmet>
       <Container className='container' fluid>
         <br />
-        <Row>
-          <Col md={12}>
-            <h3>
-              <strong>Shorts</strong>
-            </h3>
-            <p>Quick tips, tricks, and hacks.</p>
-            <hr />
-            <br />
-          </Col>
-        </Row>
+        <div className='content-div' style={{ marginBottom: '80px' }}>
+          <Row>
+            <Col md={12}>
+              <h3>
+                <strong>Shorts</strong>
+              </h3>
+              <p>Quick tips, tricks, and hacks.</p>
+              <hr />
+              <br />
+            </Col>
+          </Row>
 
-        <Row>
-          <Col md={12}>
-            <Card style={{ marginBottom: '40px' }}>
-              <Card.Body>
-                <Card.Title>
-                  <strong>Removing Unwanted Whitespace in React</strong>
-                </Card.Title>
+          <Row>
+            <Col md={12}>
+              <Card style={{ marginBottom: '40px' }}>
+                <Card.Body>
+                  <Card.Title>
+                    <strong>Removing Unwanted Whitespace in React</strong>
+                  </Card.Title>
 
-                <Image
-                  src={placeholder2}
-                  style={{
-                    width: '35%',
-                    height: 'auto',
-                    float: 'right',
-                    marginLeft: '10px',
-                  }}
-                  fluid
-                />
-                <Card.Text>
-                  <p>
-                    I came across this issue when I was working on a project in
-                    React. The problem was that I kept getting unwanted
-                    whitespace in my content in the browser, even when I didn't
-                    seem to have any whitespace in my content in the text
-                    editor.
-                  </p>
-                </Card.Text>
-                <Button
-                  className='button'
-                  variant='success'
-                  href='/shorts/removing-unwanted-whitespace-in-react'
-                  style={{ marginRight: '5px' }}
-                >
-                  Read More
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-
-        <br />
+                  <Image
+                    src={placeholder2}
+                    style={{
+                      width: '35%',
+                      height: 'auto',
+                      float: 'right',
+                      marginLeft: '10px',
+                    }}
+                    fluid
+                  />
+                  <Card.Text>
+                    <p>
+                      I came across this issue when I was working on a project
+                      in React. The problem was that I kept getting unwanted
+                      whitespace in my content in the browser, even when I
+                      didn't seem to have any whitespace in my content in the
+                      text editor.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='shorts-btn'
+                    variant='success'
+                    href='/shorts/removing-unwanted-whitespace-in-react'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Read More
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import bg from '../../img/bright-background.png';
+import bg from '../../img/bright-background.webp';
 
 const LandingPage = () => {
   return (
