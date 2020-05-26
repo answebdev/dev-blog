@@ -10,23 +10,24 @@ const NetlifyFormReact = () => {
       </Helmet>
       <Container className='container' fluid>
         <br />
-        <Row>
-          <Col md={12}>
-            <h3>
-              <strong>Setting up a Netlify Form in React</strong>
-            </h3>
-            <hr />
-            <br />
-            <p>
-              {' '}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-            <br />
-          </Col>
-        </Row>
+        <div className='content-div' style={{ marginBottom: '80px' }}>
+          <Row>
+            <Col md={12}>
+              <h3>
+                <strong>Setting up a Netlify Form in React</strong>
+              </h3>
+              <hr />
+              <br />
+              <p>
+                {' '}
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </div>
   );
