@@ -16,7 +16,7 @@ const Error = () => {
               <p></p>
               <p className='text-center'>404 Page Not Found.</p>
               <div id='back-div'>
-                <a class='btn btn-primary btn-sm' id='error-btn' href='/'>
+                <a class='btn btn-success btn-sm' id='error-btn' href='/home'>
                   <i className='fa fa-home'></i> Take Me Home
                 </a>
               </div>
