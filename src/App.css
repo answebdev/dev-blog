@@ -67,7 +67,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7rem 2rem;
+  /* padding: 0.7rem 2rem; */
   z-index: 1;
   width: 100%;
   background-color: #ff6347 !important;
