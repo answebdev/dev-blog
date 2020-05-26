@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-// import logo from '../layout/react-logo.png';
+import logo from '../layout/dev-logo.png';
 
 const Navigation = ({ title }) => {
   return (
@@ -8,8 +8,8 @@ const Navigation = ({ title }) => {
       <div className='navbar bg-primary'>
         <a href='/'>
           <p className='nav-title'>
-            {/* <img id='app-logo' src={logo} alt='React Logo' />
-            &nbsp; */}
+            <img id='app-logo' src={logo} alt='Dev Blog Logo' />
+            &nbsp;
             {title}
           </p>
         </a>

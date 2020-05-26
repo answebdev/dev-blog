@@ -25,14 +25,13 @@ html {
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
-  background-color: #3e63bd !important;
+  background-color: #b22222 !important;
   border-bottom: solid 1px var(--primary-color);
   margin-bottom: 1rem;
 }
 
 .nav-title {
   color: #ffeeff;
-  font-family: 'Dancing Script', cursive;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -71,7 +70,6 @@ html {
 .navbar .welcome span {
   margin-right: 0.6rem;
 }
-
 /* End Navbar */
 
 a {
@@ -88,6 +86,11 @@ a:hover {
   text-decoration: none;
 }
 
+#app-logo {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
 #back-div {
   text-align: center;
 }
@@ -100,8 +103,8 @@ a:hover {
 }
 
 #error-btn {
-  background: #3e63bd;
-  border-color: #3e63bd;
+  background: #b22222;
+  border-color: #b22222;
 }
 
 /* ===== MEDIA QUERIES ===== */
