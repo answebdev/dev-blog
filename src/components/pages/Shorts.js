@@ -87,11 +87,11 @@ const Shorts = () => {
                   <Card.Text>
                     <p>
                       When I was working on a project in React, I had separate
-                      navbar and footer components that I wanted to appear on my
+                      Navbar and Footer components that I wanted to appear on my
                       pages. However, I wanted the layout of my landing page to
-                      look different, and I did not want the navbar or the
-                      footer to render on my landing page. Here, I provide a
-                      quick fix to this issue.
+                      look different, and I did not want the Navbar or the
+                      Footer to render on my landing page. Here, I explain how I
+                      used React Helmet to get around this issue.
                     </p>
                   </Card.Text>
                   <Button
