@@ -9,9 +9,15 @@ const Shorts = () => {
         <title>Dev Blog | Shorts</title>
       </Helmet>
       <Container className='container' fluid>
+        <br />
         <Row>
           <Col md={12}>
-            <h3>Shorts Page</h3>
+            <h3>
+              <strong>Notes</strong>
+            </h3>
+            <hr />
+            <p>This is the Shorts page.</p>
+            <br />
           </Col>
         </Row>
       </Container>

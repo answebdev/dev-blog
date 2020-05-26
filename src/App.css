@@ -19,6 +19,8 @@ html {
 
 body {
   font-family: 'Muli', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 16px;
 }
 
 /* Landing Page Styles */
@@ -79,7 +81,7 @@ body {
   letter-spacing: 1.5px;
   padding-bottom: 0.5em;
   text-transform: uppercase;
-  /* margin-bottom: -10px; */
+  margin-top: 2.5px;
 }
 
 /* .navbar .welcome span {
@@ -120,6 +122,10 @@ body {
 }
 /* End Navbar */
 
+.click {
+  color: #3e63bd;
+}
+
 a {
   /* color: #007bff; */
   color: #ffeeff;
@@ -129,14 +135,13 @@ a {
 }
 
 a:hover {
-  color: #c7d1d8;
-  /* color: #5b727f; */
+  color: #ff6347;
   text-decoration: none;
 }
 
 #app-logo {
   width: 40px;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 #back-div {

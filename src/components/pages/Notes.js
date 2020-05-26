@@ -9,9 +9,15 @@ const Notes = () => {
         <title>Dev Blog | Notes</title>
       </Helmet>
       <Container className='container' fluid>
+        <br />
         <Row>
           <Col md={12}>
-            <h3>Notes Page</h3>
+            <h3>
+              <strong>Notes</strong>
+            </h3>
+            <hr />
+            <p>This is the Notes page.</p>
+            <br />
           </Col>
         </Row>
       </Container>
