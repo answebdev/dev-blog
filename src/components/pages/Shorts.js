@@ -98,7 +98,7 @@ const Shorts = () => {
                     className='button'
                     id='shorts-btn'
                     variant='success'
-                    href='/shorts'
+                    href='/shorts/how-to-not-render-a-component-on-a-paricular-page-in-react'
                     style={{ marginRight: '5px' }}
                   >
                     Read More

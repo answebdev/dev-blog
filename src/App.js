@@ -7,6 +7,7 @@ import Shorts from './components/pages/Shorts';
 import Error from './components/pages/Error';
 import NetlifyFormReact from './components/pages/NetlifyFormReact';
 import WhitespaceReact from './components/pages/WhitespaceReact';
+import ReactComponents from './components/pages/ReactComponents';
 
 import Navigation from './components/layout/Navigation';
 import Footer from './components/layout/Footer';
@@ -35,6 +36,11 @@ const App = () => {
                 exact
                 path='/shorts/removing-unwanted-whitespace-in-react'
                 component={WhitespaceReact}
+              />
+              <Route
+                exact
+                path='/shorts/how-to-not-render-a-component-on-a-paricular-page-in-react'
+                component={ReactComponents}
               />
               <Route component={Error} />
             </Switch>
