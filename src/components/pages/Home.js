@@ -49,6 +49,18 @@ const Home = () => {
                 </a>
                 <span style={{ marginLeft: '-10px' }}>.</span>
               </p>
+              <p>
+                For more information, feel free to visit my website
+                <a
+                  className='click'
+                  href='https://adolfschmuck.com/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <span style={{ marginLeft: '-10px' }}> here</span>
+                </a>
+                <span style={{ marginLeft: '-10px' }}>.</span>
+              </p>
             </Col>
           </Row>
         </div>
