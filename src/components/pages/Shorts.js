@@ -11,7 +11,7 @@ const Shorts = () => {
       </Helmet>
       <Container className='container' fluid>
         <br />
-        <div className='content-div' style={{ marginBottom: '80px' }}>
+        <div className='content-div'>
           <Row>
             <Col md={12}>
               <h3>

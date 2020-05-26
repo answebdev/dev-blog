@@ -11,7 +11,7 @@ const Guides = () => {
       </Helmet>
       <Container className='container' fluid>
         <br />
-        <div className='content-div' style={{ marginBottom: '40px' }}>
+        <div className='content-div'>
           <Row>
             <Col md={12}>
               <h3>
@@ -25,7 +25,7 @@ const Guides = () => {
 
           <Row>
             <Col md={12}>
-              <Card style={{ marginBottom: '80px' }}>
+              <Card style={{ marginBottom: '40px' }}>
                 <Card.Body>
                   <Card.Title>
                     <strong>Setting up a Netlify Form in React</strong>

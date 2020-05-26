@@ -142,6 +142,10 @@ h3 {
   font-family: 'Quicksand', sans-serif;
 }
 
+.content-div {
+  margin-bottom: 80px;
+}
+
 .click {
   color: #3e63bd;
 }
