@@ -16,8 +16,8 @@ const Guides = () => {
             <h3>
               <strong>Guides</strong>
             </h3>
-            <hr />
             <p>This is the Guides page.</p>
+            <hr />
             <br />
           </Col>
         </Row>
@@ -27,7 +27,7 @@ const Guides = () => {
             <Card style={{ marginBottom: '40px' }}>
               <Card.Body>
                 <Card.Title>
-                  <strong>Removing Unwanted Whitespace in React</strong>
+                  <strong>Setting up a Netlify Form in React</strong>
                 </Card.Title>
 
                 <Image
@@ -58,7 +58,7 @@ const Guides = () => {
                 <Button
                   className='button'
                   variant='success'
-                  href='/guides'
+                  href='/guides/setting-up-a-netlify-form-in-react'
                   style={{ marginRight: '5px' }}
                 >
                   Read More
