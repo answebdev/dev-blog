@@ -42,17 +42,11 @@ const Shorts = () => {
                 />
                 <Card.Text>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
-                  <p>
-                    It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker
-                    including versions of Lorem Ipsum.
+                    I came across this issue when I was working on a project in
+                    React. The problem was that I kept getting unwanted
+                    whitespace in my content in the browser, even when I didn't
+                    seem to have any whitespace in my content in the text
+                    editor.
                   </p>
                 </Card.Text>
                 <Button
