@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import LandingPage from './components/pages/LandingPage';
 import Home from './components/pages/Home';
 import Notes from './components/pages/Notes';
 import Shorts from './components/pages/Shorts';
@@ -16,7 +17,8 @@ const App = () => {
           <Navigation />
           <div className='container'>
             <Switch>
-              <Route exact path='/' component={Home} />
+              <Route exact path='/' component={LandingPage} />
+              <Route exact path='/home' component={Home} />
               <Route exact path='/notes' component={Notes} />
               <Route exact path='/shorts' component={Shorts} />
               <Route component={Error} />

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Dev Blog</title>
+        <title>Dev Blog | Home</title>
       </Helmet>
       <Container className='container' fluid>
         <Row>
