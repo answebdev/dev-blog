@@ -28,16 +28,16 @@ const Home = () => {
               help others out as well.
             </p>
             <p>
-              This site is currently divided into two sections: Notes and
-              Shorts. Notes is intended for brief explanations of various
+              This site is currently divided into two sections: Guides and
+              Shorts. Guides is intended for brief explanations of various
               topics, such as how to set up Netlify forms in React. Shorts is
               intended for quick tricks or hacks, such as how to remove unwanted
               whitespace in React.
             </p>
             <p>
               Thank you for visiting Dev Blog. I hope you find something here
-              that is useful and helps you out. To go to the Notes page, click{' '}
-              <a className='click' href='/notes'>
+              that is useful and helps you out. To go to the Guides page, click{' '}
+              <a className='click' href='/guides'>
                 <span style={{ marginLeft: '-10px' }}> here</span>
               </a>
               <span style={{ marginLeft: '-10px' }}>.</span>
