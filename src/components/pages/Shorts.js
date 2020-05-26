@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import placeholder2 from '../../img/placeholder2.png';
+import reactComponents from '../../img/react-components.png';
 
 const Shorts = () => {
   return (
@@ -55,6 +56,51 @@ const Shorts = () => {
                     id='shorts-btn'
                     variant='success'
                     href='/shorts/removing-unwanted-whitespace-in-react'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Read More
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <Card style={{ marginBottom: '40px' }}>
+                <Card.Body>
+                  <Card.Title>
+                    <strong>
+                      How to Not Render a Component on a Particular Page in
+                      React
+                    </strong>
+                  </Card.Title>
+
+                  <Image
+                    src={reactComponents}
+                    style={{
+                      width: '35%',
+                      height: 'auto',
+                      float: 'right',
+                      marginLeft: '10px',
+                    }}
+                    fluid
+                  />
+                  <Card.Text>
+                    <p>
+                      When I was working on a project in React, I had separate
+                      navbar and footer components that I wanted to appear on my
+                      pages. However, I wanted the layout of my landing page to
+                      look different, and I did not want the navbar or the
+                      footer to render on my landing page. Here, I provide a
+                      quick fix to this issue.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='shorts-btn'
+                    variant='success'
+                    href='/shorts'
                     style={{ marginRight: '5px' }}
                   >
                     Read More

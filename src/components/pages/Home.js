@@ -19,8 +19,8 @@ const Home = () => {
               <hr />
               <p>
                 Welcome to the my web developer blog. This site is dedicated to
-                notes of various topics intended to help those in need. I
-                originally created these notes to help me as throughout my web
+                notes and guides on various topics related to web development. I
+                originally created these notes to help me throughout my web
                 development journey. But I decided to create this site to leave
                 the notes I've created to help others who may have come gotten
                 stuck along the way. I am aware that there may be more than one
@@ -30,10 +30,10 @@ const Home = () => {
               </p>
               <p>
                 This site is currently divided into two sections: Guides and
-                Shorts. Guides is intended for brief explanations of various
-                topics, such as how to set up Netlify forms in React. Shorts is
-                intended for quick tricks or hacks, such as how to remove
-                unwanted whitespace in React.
+                Shorts. The Guides section is intended for brief explanations of
+                various topics, such as how to set up Netlify forms in React.
+                The Shorts section is intended for quick tricks or hacks, such
+                as how to remove unwanted whitespace in React.
               </p>
               <p>
                 Thank you for visiting Dev Blog. I hope you find something here

@@ -17,7 +17,7 @@ const Guides = () => {
               <h3>
                 <strong>Guides</strong>
               </h3>
-              <p>This is the Guides page.</p>
+              <p>Mini-guides on a variety of topics.</p>
               <hr />
               <br />
             </Col>
