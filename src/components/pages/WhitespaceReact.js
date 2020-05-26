@@ -9,6 +9,7 @@ import ws5 from '../../img/ws05.png';
 import ws6 from '../../img/ws06.png';
 import ws7 from '../../img/ws07.png';
 import ws8 from '../../img/ws08.png';
+import whitespace from '../../img/whitespace.pdf';
 
 const WhitespaceReact = () => {
   return (
@@ -99,6 +100,27 @@ const WhitespaceReact = () => {
             <p>
               <img src={ws8} class='img-fluid mb-3' alt='Whitespace 8' />
             </p>
+            <br />
+
+            <a
+              src={whitespace}
+              href={whitespace}
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <i class='fas fa-file-download' style={{ color: '#3e63bd' }}>
+                &nbsp;&nbsp;
+                <span
+                  style={{
+                    fontFamily: 'Oxygen',
+                    fontSize: '16px',
+                    color: '#3e63bd',
+                  }}
+                >
+                  Download The Notes Here
+                </span>
+              </i>
+            </a>
             <br />
             <br />
           </Col>
