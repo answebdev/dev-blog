@@ -2,11 +2,11 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import ScrollUpButton from 'react-scroll-up-button';
-import rp1 from '../../img/rp01.jpg';
-import rp2 from '../../img/rp02.jpg';
+import rp1 from '../../img/rp01.webp';
+import rp2 from '../../img/rp02.webp';
 import rp3 from '../../img/rp03.png';
 import rp4 from '../../img/rp04.png';
-import rp5 from '../../img/rp05.jpg';
+import rp5 from '../../img/rp05.webp';
 import components from '../../img/components.pdf';
 
 const ReactComponents = () => {
