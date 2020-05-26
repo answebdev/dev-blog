@@ -7,7 +7,7 @@ import rp2 from '../../img/rp02.jpg';
 import rp3 from '../../img/rp03.png';
 import rp4 from '../../img/rp04.png';
 import rp5 from '../../img/rp05.jpg';
-// import whitespace from '../../img/whitespace.pdf';
+import components from '../../img/components.pdf';
 
 const ReactComponents = () => {
   return (
@@ -33,6 +33,33 @@ const ReactComponents = () => {
                 <strong>The problem: </strong>Layout components rendering on
                 pages you don't want them to.
               </p>
+
+              <p>
+                <a
+                  src={components}
+                  href={components}
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  style={{ padding: '0' }}
+                >
+                  <i
+                    className='fas fa-file-download'
+                    style={{ color: '#3e63bd' }}
+                  >
+                    &nbsp;&nbsp;
+                    <span
+                      style={{
+                        fontFamily: 'Oxygen',
+                        fontSize: '16px',
+                        color: '#3e63bd',
+                      }}
+                    >
+                      Download The Notes Here
+                    </span>
+                  </i>
+                </a>
+              </p>
+
               <p>
                 I was recently working on a project in React, and I had two
                 different component folders: Pages and Layout. Inside the Layout
