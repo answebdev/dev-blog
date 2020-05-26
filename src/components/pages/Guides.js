@@ -28,19 +28,18 @@ const Guides = () => {
               <Card style={{ marginBottom: '40px' }}>
                 <Card.Body>
                   <Card.Title>
+                    <Image
+                      src={placeholder}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
                     <strong>Setting up a Netlify Form in React</strong>
                   </Card.Title>
-
-                  <Image
-                    src={placeholder}
-                    style={{
-                      width: '35%',
-                      height: 'auto',
-                      float: 'right',
-                      marginLeft: '10px',
-                    }}
-                    fluid
-                  />
                   <Card.Text>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -53,7 +52,11 @@ const Guides = () => {
                       It was popularised in the 1960s with the release of
                       Letraset sheets containing Lorem Ipsum passages, and more
                       recently with desktop publishing software like Aldus
-                      PageMaker including versions of Lorem Ipsum.
+                      PageMaker including versions of Lorem Ipsum. It was
+                      popularised in the 1960s with the release of Letraset
+                      sheets containing Lorem Ipsum passages, and more recently
+                      with desktop publishing software like Aldus PageMaker
+                      including versions of Lorem Ipsum.
                     </p>
                   </Card.Text>
                   <Button

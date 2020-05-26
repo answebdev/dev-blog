@@ -29,19 +29,18 @@ const Shorts = () => {
               <Card style={{ marginBottom: '40px' }}>
                 <Card.Body>
                   <Card.Title>
+                    <Image
+                      src={placeholder2}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
                     <strong>Removing Unwanted Whitespace in React</strong>
                   </Card.Title>
-
-                  <Image
-                    src={placeholder2}
-                    style={{
-                      width: '35%',
-                      height: 'auto',
-                      float: 'right',
-                      marginLeft: '10px',
-                    }}
-                    fluid
-                  />
                   <Card.Text>
                     <p>
                       I came across this issue when I was working on a project
@@ -70,22 +69,21 @@ const Shorts = () => {
               <Card style={{ marginBottom: '40px' }}>
                 <Card.Body>
                   <Card.Title>
+                    <Image
+                      src={reactComponents}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
                     <strong>
                       How to Not Render a Component on a Particular Page in
                       React
                     </strong>
                   </Card.Title>
-
-                  <Image
-                    src={reactComponents}
-                    style={{
-                      width: '35%',
-                      height: 'auto',
-                      float: 'right',
-                      marginLeft: '10px',
-                    }}
-                    fluid
-                  />
                   <Card.Text>
                     <p>
                       When I was working on a project in React, I had separate
