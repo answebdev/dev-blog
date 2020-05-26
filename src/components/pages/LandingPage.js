@@ -10,7 +10,7 @@ const LandingPage = () => {
         <title>Dev Blog</title>
         <style type='text/css'>{`
         body {
-          background-color: #3e63bd;
+          background-color: #26231e;
         }
 
         .container {

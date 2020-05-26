@@ -71,7 +71,7 @@ body {
   z-index: 1;
   width: 100%;
   background-color: #ff6347 !important;
-  border-bottom: solid 1px var(--primary-color);
+  /* border-bottom: solid 1px var(--primary-color); */
   margin-bottom: 1rem;
 }
 
