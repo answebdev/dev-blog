@@ -2,15 +2,15 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import ScrollUpButton from 'react-scroll-up-button';
-import ng1 from '../../img/ng01.png';
-import ng2 from '../../img/ng02.png';
-import ng3 from '../../img/ng03.png';
-import ng4 from '../../img/ng04.png';
+import ng1 from '../../img/ng01.webp';
+import ng2 from '../../img/ng02.webp';
+import ng3 from '../../img/ng03.webp';
+import ng4 from '../../img/ng04.webp';
 import ng5 from '../../img/ng05.png';
 import ng6 from '../../img/ng06.png';
 import rp5 from '../../img/rp05.webp';
-import ng7 from '../../img/ng07.png';
-import ng8 from '../../img/ng08.png';
+import ng7 from '../../img/ng07.webp';
+import ng8 from '../../img/ng08.webp';
 import nextGen from '../../img/next-gen.pdf';
 
 const NextGen = () => {
@@ -71,10 +71,10 @@ const NextGen = () => {
               <p>
                 There are a number of possible reasons why the pages on your
                 application may load slowly. This guide focuses on using WebP
-                versions of your images to help with this. This guide was
-                created alongside a React application, but the ideas in this
-                guide can apply to other applications and websites besides
-                React. According to a web.dev article
+                versions of your images to help your applications load faster.
+                This guide was created alongside a React application, but the
+                ideas in this guide can apply to other applications and websites
+                besides React. According to a web.dev article
                 <a
                   className='click'
                   href='https://web.dev/uses-webp-images/?utm_source=lighthouse&utm_medium=devtools'

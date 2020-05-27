@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import nextGen from '../../img/next-gen.png';
 import netlifyForms from '../../img/netlify-forms.png';
 
 const Guides = () => {
@@ -29,7 +30,7 @@ const Guides = () => {
                 <Card.Body>
                   <Card.Title>
                     <Image
-                      src={netlifyForms}
+                      src={nextGen}
                       style={{
                         width: '35%',
                         height: 'auto',
@@ -47,7 +48,8 @@ const Guides = () => {
                     <p>
                       There are a number of possible reasons why the pages on
                       your application may load slowly. This guide focuses on
-                      using WebP versions of your images to help with this.
+                      using WebP versions of your images to help your
+                      applications load faster.
                     </p>
                     <p>
                       This guide was created alongside a React application, but
