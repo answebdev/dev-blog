@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import placeholder2 from '../../img/placeholder2.png';
+import whitespace from '../../img/whitespace.png';
 import reactComponents from '../../img/react-components.png';
 
 const Shorts = () => {
@@ -30,7 +30,7 @@ const Shorts = () => {
                 <Card.Body>
                   <Card.Title>
                     <Image
-                      src={placeholder2}
+                      src={whitespace}
                       style={{
                         width: '35%',
                         height: 'auto',

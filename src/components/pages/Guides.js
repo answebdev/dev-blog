@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import placeholder from '../../img/placeholder.png';
+import netlifyForms from '../../img/netlify-forms.png';
 
 const Guides = () => {
   return (
@@ -29,7 +29,7 @@ const Guides = () => {
                 <Card.Body>
                   <Card.Title>
                     <Image
-                      src={placeholder}
+                      src={netlifyForms}
                       style={{
                         width: '35%',
                         height: 'auto',
