@@ -8,7 +8,7 @@ const Guides = () => {
   return (
     <div>
       <Helmet>
-        <title>Dev Blog | Guides</title>
+        <title>CoderGuides | Guides</title>
       </Helmet>
       <Container className='container' fluid>
         <br />

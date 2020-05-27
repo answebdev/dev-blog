@@ -14,7 +14,8 @@ const ReactComponents = () => {
     <div>
       <Helmet>
         <title>
-          Dev Blog | How to Not Render a Component on a Particular Page in React
+          CoderGuides | How to Not Render a Component on a Particular Page in
+          React
         </title>
       </Helmet>
       <Container className='container' fluid>

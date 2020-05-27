@@ -18,7 +18,7 @@ const NextGen = () => {
     <div>
       <Helmet>
         <title>
-          Dev Blog | Using Next-gen Image Formats to Enhance Your App's
+          CoderGuides | Using Next-gen Image Formats to Enhance Your App's
           Performance (React)
         </title>
       </Helmet>

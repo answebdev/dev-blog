@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
     <div>
       <Helmet>
-        <title>Dev Blog</title>
+        <title>CoderGuides</title>
         <style type='text/css'>{`
         body {
           background-color: #26231e;
@@ -40,7 +40,7 @@ const LandingPage = () => {
             >
               <h1 id='landing-msg'>
                 <a id='landing' href='/home'>
-                  DEV BLOG
+                  CoderGuides
                 </a>
               </h1>
             </header>

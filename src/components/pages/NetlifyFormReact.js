@@ -6,7 +6,7 @@ const NetlifyFormReact = () => {
   return (
     <div>
       <Helmet>
-        <title>Dev Blog | Setting up a Netlify Form in React</title>
+        <title>CoderGuides | Setting up a Netlify Form in React</title>
       </Helmet>
       <Container className='container' fluid>
         <br />

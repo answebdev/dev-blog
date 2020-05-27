@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Dev Blog | Home</title>
+        <title>CoderGuides | Home</title>
       </Helmet>
       <Container className='container' fluid>
         <br />
@@ -14,30 +14,26 @@ const Home = () => {
           <Row>
             <Col md={12}>
               <h3>
-                <strong>Welcome to Dev Blog</strong>
+                <strong>Welcome to CoderGuides</strong>
               </h3>
               <hr />
               <p>
-                Welcome to the my web developer blog. This site is dedicated to
-                notes and guides on various topics related to web development. I
-                originally created these notes to help me throughout my web
-                development journey. But I decided to create this site to leave
-                the notes I've created to help others who may have come gotten
-                stuck along the way. I am aware that there may be more than one
-                way to solve the problems that I put forth here, and that this
-                is not the only way. But this is what helped me, and perhaps it
-                can help others out as well.
+                Welcome to CoderGuides. This site is dedicated to guides and
+                notes on various topics related to web development. I originally
+                created these notes to help me throughout my web development
+                journey. But I decided to create this site to leave the notes
+                I've created in hopes of helping others. I realize that there
+                may be more than one way to tackle the problems put forth here,
+                and that these are not the only ways to approach the presented
+                issues. But this is what helped me, and perhaps others may find
+                the information here useful.
               </p>
               <p>
                 This site is currently divided into two sections: Guides and
-                Shorts. The Guides section is intended for brief explanations of
+                Shorts. The Guides section is intended for brief explanations on
                 various topics, such as how to set up Netlify forms in React.
-                The Shorts section is intended for quick tricks or hacks, such
-                as how to remove unwanted whitespace in React.
-              </p>
-              <p>
-                Thank you for visiting Dev Blog. I hope you find something here
-                that is useful and helps you out. To go to the Guides page,
+                The Shorts section is intended for quick tips, such as how to
+                remove unwanted whitespace in React. To go to the Guides page,
                 click{' '}
                 <a className='click' href='/guides'>
                   <span style={{ marginLeft: '-10px' }}> here</span>
@@ -63,10 +59,10 @@ const Home = () => {
               </p>
 
               <p id='disclaimer'>
-                Dev Blog contains links to other websites. These links are
+                CoderGuides contains links to other websites. These links are
                 not endorsements of any products or services found on such
                 sites, and no information on such sites has been endorsed or
-                approved by Dev Blog.
+                approved by CoderGuides.
               </p>
             </Col>
           </Row>

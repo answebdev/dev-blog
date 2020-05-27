@@ -16,7 +16,7 @@ const WhitespaceReact = () => {
   return (
     <div>
       <Helmet>
-        <title>Dev Blog | Removing Unwanted Whitespace in React</title>
+        <title>CoderGuides | Removing Unwanted Whitespace in React</title>
       </Helmet>
       <Container className='container' fluid>
         <br />

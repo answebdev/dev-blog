@@ -8,7 +8,7 @@ const Shorts = () => {
   return (
     <div>
       <Helmet>
-        <title>Dev Blog | Shorts</title>
+        <title>CoderGuides | Shorts</title>
       </Helmet>
       <Container className='container' fluid>
         <br />

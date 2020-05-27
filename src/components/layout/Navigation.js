@@ -8,7 +8,7 @@ const Navigation = ({ title }) => {
       <div className='navbar bg-primary'>
         <a href='/'>
           <p className='nav-title'>
-            <img id='app-logo' src={logo} alt='Dev Blog Logo' />
+            <img id='app-logo' src={logo} alt='CoderGuides Logo' />
             &nbsp;
             {title}
           </p>
@@ -32,7 +32,7 @@ const Navigation = ({ title }) => {
 };
 
 Navigation.defaultProps = {
-  title: 'Dev Blog',
+  title: 'CoderGuides',
 };
 
 export default Navigation;
