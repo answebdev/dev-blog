@@ -187,6 +187,10 @@ a:hover {
   border-color: #ff6347;
 }
 
+#disclaimer {
+  font-size: 0.75rem;
+}
+
 /* Sticky (But Not Fixed) Footer,
 Source: https://chrisbracco.com/css-sticky-footer-effect/ */
 .footer {

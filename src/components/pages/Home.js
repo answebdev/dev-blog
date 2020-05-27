@@ -61,6 +61,13 @@ const Home = () => {
                 </a>
                 <span style={{ marginLeft: '-10px' }}>.</span>
               </p>
+
+              <p id='disclaimer'>
+                Dev Blog contains links to other websites. These links are
+                not endorsements of any products or services found on such
+                sites, and no information on such sites has been endorsed or
+                approved by Dev Blog.
+              </p>
             </Col>
           </Row>
         </div>
