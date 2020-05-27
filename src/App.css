@@ -122,15 +122,16 @@ body {
 }
 
 .navbar a {
-  color: #fff;
+  color: #ffffff;
   font-size: 18px;
   margin: 0 0.25rem;
   margin-bottom: -30px;
 }
 
 .navbar a:hover {
-  color: var(--light-color);
+  /* color: var(--light-color); */
   /* color: #edc19f; */
+  color: #c7d1d8;
 }
 
 .navbar .welcome span {
