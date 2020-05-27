@@ -102,12 +102,22 @@ const NextGen = () => {
                 URL, open the developer tools, and select Audits.
               </p>
               <p>
-                <img src={ng1} className='img-fluid mb-3' alt='Lighthouse 1' />
+                <img
+                  src={ng1}
+                  className='img-fluid mb-3'
+                  title='Landing Page and Web Developer Tools'
+                  alt='Landing Page and Web Developer Tools'
+                />
               </p>
               <br />
               <p>Click on "Generate report":</p>
               <p>
-                <img src={ng2} className='img-fluid mb-3' alt='Lighthouse 2' />
+                <img
+                  src={ng2}
+                  className='img-fluid mb-3'
+                  title='Landing Page and Lighthouse'
+                  alt='Landing Page and Lighthouse'
+                />
               </p>
               <br />
               <p>
@@ -122,7 +132,12 @@ const NextGen = () => {
                 formats.
               </p>
               <p>
-                <img src={ng3} className='img-fluid mb-3' alt='Lighthouse 3' />
+                <img
+                  src={ng3}
+                  className='img-fluid mb-3'
+                  title='Landing Page and Lighthouse'
+                  alt='Landing Page and Lighthouse'
+                />
               </p>
               <br />
               <p>
@@ -148,6 +163,7 @@ const NextGen = () => {
                 <img
                   src={ng4}
                   className='img-fluid mb-3'
+                  title='Online Converter'
                   alt='Online Converter'
                 />
               </p>
@@ -159,7 +175,12 @@ const NextGen = () => {
                 folder.
               </p>
               <p>
-                <img src={ng5} className='img-fluid mb-3' alt='Folder' />
+                <img
+                  src={ng5}
+                  className='img-fluid mb-3'
+                  title='Detail of Image Folder'
+                  alt='Detail of Folder'
+                />
               </p>
               <br />
               <p>
@@ -167,12 +188,22 @@ const NextGen = () => {
                 extension (line 5).
               </p>
               <p>
-                <img src={ng6} className='img-fluid mb-3' alt='Code 1' />
+                <img
+                  src={ng6}
+                  className='img-fluid mb-3'
+                  title='Code Detail'
+                  alt='Code Detail'
+                />
               </p>
               <br />
               <p>4. And that’s it. Now it should work.</p>
               <p>
-                <img src={rp5} className='img-fluid mb-3' alt='Landing Page' />
+                <img
+                  src={rp5}
+                  className='img-fluid mb-3'
+                  title='Landing Page'
+                  alt='Landing Page'
+                />
               </p>
               <br />
               <p>
@@ -183,10 +214,20 @@ const NextGen = () => {
                 load, they should load faster.
               </p>
               <p>
-                <img src={ng7} className='img-fluid mb-3' alt='Lighthouse 4' />
+                <img
+                  src={ng7}
+                  className='img-fluid mb-3'
+                  title='Landing Page and Lighthouse'
+                  alt='Landing Page and Lighthouse'
+                />
               </p>
               <p>
-                <img src={ng8} className='img-fluid mb-3' alt='Lighthouse 5' />
+                <img
+                  src={ng8}
+                  className='img-fluid mb-3'
+                  title='Landing Page and Lighthouse'
+                  alt='Landing Page and Lighthouse'
+                />
               </p>
             </Col>
           </Row>

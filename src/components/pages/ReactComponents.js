@@ -74,7 +74,8 @@ const ReactComponents = () => {
                 <img
                   src={rp1}
                   className='img-fluid mb-3'
-                  alt='Landing Page 1'
+                  title='Landing Page with Navbar'
+                  alt='Landing Page with Navbar'
                 />
               </p>
 
@@ -82,7 +83,8 @@ const ReactComponents = () => {
                 <img
                   src={rp2}
                   className='img-fluid mb-3'
-                  alt='Landing Page 2'
+                  title='Landing Page with Footer'
+                  alt='Landing Page with Footer'
                 />
               </p>
               <br />
@@ -124,7 +126,8 @@ const ReactComponents = () => {
                 <img
                   src={rp3}
                   className='img-fluid mb-3'
-                  alt='Code in Home Page Component 1'
+                  title='Code Detail'
+                  alt='Code Detail'
                 />
               </p>
               <br />
@@ -145,7 +148,8 @@ const ReactComponents = () => {
                 <img
                   src={rp4}
                   className='img-fluid mb-3'
-                  alt='Code in Home Page Component 2'
+                  title='Code Detail'
+                  alt='Code Detail'
                 />
               </p>
               <br />
@@ -157,7 +161,8 @@ const ReactComponents = () => {
                 <img
                   src={rp5}
                   className='img-fluid mb-3'
-                  alt='Landing Page 3'
+                  title='Landing Page'
+                  alt='Landing Page'
                 />
               </p>
             </Col>

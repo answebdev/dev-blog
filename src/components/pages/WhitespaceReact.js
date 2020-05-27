@@ -65,7 +65,12 @@ const WhitespaceReact = () => {
                 period.
               </p>
               <p>
-                <img src={ws1} className='img-fluid mb-3' alt='Whitespace 1' />
+                <img
+                  src={ws1}
+                  className='img-fluid mb-3'
+                  title='Detail of Home Page'
+                  alt='Detail of Home Page'
+                />
               </p>
               <br />
               <p>
@@ -73,7 +78,12 @@ const WhitespaceReact = () => {
                 text editor.
               </p>
               <p>
-                <img src={ws2} className='img-fluid mb-3' alt='Whitespace 2' />
+                <img
+                  src={ws2}
+                  className='img-fluid mb-3'
+                  title='Code Detail'
+                  alt='Code Detail'
+                />
               </p>
               <br />
               <p>
@@ -82,7 +92,12 @@ const WhitespaceReact = () => {
                 spaces in the browser.
               </p>
               <p>
-                <img src={ws3} className='img-fluid mb-3' alt='Whitespace 3' />
+                <img
+                  src={ws3}
+                  className='img-fluid mb-3'
+                  title='Code Detail'
+                  alt='Code Detail'
+                />
               </p>
               <br />
               <p>
@@ -92,7 +107,12 @@ const WhitespaceReact = () => {
                 (line 28) have been put inside a <strong>span</strong> tag.
               </p>
               <p>
-                <img src={ws4} className='img-fluid mb-3' alt='Whitespace 4' />
+                <img
+                  src={ws4}
+                  className='img-fluid mb-3'
+                  title='Code Detail'
+                  alt='Code Detail'
+                />
               </p>
               <br />
               <p>
@@ -101,7 +121,12 @@ const WhitespaceReact = () => {
                 of "-10px" (lines 26 and 28):
               </p>
               <p>
-                <img src={ws5} className='img-fluid mb-3' alt='Whitespace 5' />
+                <img
+                  src={ws5}
+                  className='img-fluid mb-3'
+                  title='Code Detail'
+                  alt='Code Detail'
+                />
               </p>
               <br />
               <p>
@@ -110,7 +135,12 @@ const WhitespaceReact = () => {
                 between the words "click" and "here":
               </p>
               <p>
-                <img src={ws6} className='img-fluid mb-3' alt='Whitespace 6' />
+                <img
+                  src={ws6}
+                  className='img-fluid mb-3'
+                  title='Detail of Home Page'
+                  alt='Detail of Home Page'
+                />
               </p>
               <br />
               <p>
@@ -118,7 +148,12 @@ const WhitespaceReact = () => {
                 text editor before the word here (line 26):
               </p>
               <p>
-                <img src={ws7} className='img-fluid mb-3' alt='Whitespace 7' />
+                <img
+                  src={ws7}
+                  className='img-fluid mb-3'
+                  title='Code Detail'
+                  alt='Code Detail'
+                />
               </p>
               <br />
               <p>
@@ -127,7 +162,12 @@ const WhitespaceReact = () => {
               </p>
               <p>And that's it! We no longer have unwanted whitespace:</p>
               <p>
-                <img src={ws8} className='img-fluid mb-3' alt='Whitespace 8' />
+                <img
+                  src={ws8}
+                  className='img-fluid mb-3'
+                  title='Detail of Home Page'
+                  alt='Detail of Home Page'
+                />
               </p>
             </Col>
           </Row>
