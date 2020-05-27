@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import Guides from './components/pages/Guides';
 import Shorts from './components/pages/Shorts';
 import Error from './components/pages/Error';
+import NextGen from './components/pages/NextGen';
 import NetlifyFormReact from './components/pages/NetlifyFormReact';
 import WhitespaceReact from './components/pages/WhitespaceReact';
 import ReactComponents from './components/pages/ReactComponents';
@@ -27,6 +28,11 @@ const App = () => {
               <Route exact path='/guides' component={Guides} />
               <Route exact path='/shorts' component={Shorts} />
 
+              <Route
+                exact
+                path='/guides/using-next-gen-image-formats-to-enhance-your-apps-performance'
+                component={NextGen}
+              />
               <Route
                 exact
                 path='/guides/setting-up-a-netlify-form-in-react'
