@@ -45,7 +45,7 @@ const Home = () => {
                 </a>
                 <span style={{ marginLeft: '-10px' }}>.</span>
               </p>
-              <p>
+              {/* <p>
                 For more information, feel free to visit my website
                 <a
                   className='click'
@@ -54,6 +54,20 @@ const Home = () => {
                   target='_blank'
                 >
                   <span style={{ marginLeft: '-10px' }}> here</span>
+                </a>
+                <span style={{ marginLeft: '-10px' }}>.</span>
+              </p> */}
+
+              <p>
+                &copy; 2020 CoderGuides | CoderGuides was created and developed
+                by{' '}
+                <a
+                  className='click'
+                  href='https://adolfschmuck.com/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <span style={{ marginLeft: '-10px' }}> Adolf Schmuck</span>
                 </a>
                 <span style={{ marginLeft: '-10px' }}>.</span>
               </p>
