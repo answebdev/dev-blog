@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import nextGen from '../../img/next-gen.png';
-import netlifyForms from '../../img/netlify-forms.png';
+import nextGen from '../../img/next-gen.webp';
+import netlifyForms from '../../img/netlify-forms.webp';
 
 const Guides = () => {
   return (

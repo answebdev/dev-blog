@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import whitespace from '../../img/whitespace.png';
-import reactComponents from '../../img/react-components.png';
+import whitespace from '../../img/whitespace.webp';
+import reactComponents from '../../img/react-components.webp';
 
 const Shorts = () => {
   return (
