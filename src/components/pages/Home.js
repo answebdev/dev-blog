@@ -1,6 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import guides from '../../img/guides.webp';
+import shorts from '../../img/shorts.webp';
 
 const Home = () => {
   return (
@@ -26,38 +28,71 @@ const Home = () => {
                 may be more than one way to tackle the problems put forth here,
                 and that these are not the only ways to approach the presented
                 issues. But this is what helped me, and perhaps others may find
-                the information here useful.
+                the information here useful. This site is currently divided into
+                two sections: Guides and Shorts. Feel free to take a look around
+                and share with others.
               </p>
-              <p>
-                This site is currently divided into two sections: Guides and
-                Shorts. The Guides section is intended for brief explanations on
-                various topics, such as how to set up Netlify forms in React.
-                The Shorts section is intended for quick tips, such as how to
-                remove unwanted whitespace in React. To go to the Guides page,
-                click{' '}
-                <a className='click' href='/guides'>
-                  <span style={{ marginLeft: '-10px' }}> here</span>
-                </a>
-                <span style={{ marginLeft: '-10px' }}>.</span>
-                &nbsp;To go to the Shorts page, click{' '}
-                <a className='click' href='/shorts'>
-                  <span style={{ marginLeft: '-10px' }}> here</span>
-                </a>
-                <span style={{ marginLeft: '-10px' }}>.</span>
-              </p>
-              {/* <p>
-                For more information, feel free to visit my website
-                <a
-                  className='click'
-                  href='https://adolfschmuck.com/'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                >
-                  <span style={{ marginLeft: '-10px' }}> here</span>
-                </a>
-                <span style={{ marginLeft: '-10px' }}>.</span>
-              </p> */}
+              <br />
+            </Col>
+          </Row>
 
+          <Row>
+            <Col md={6}>
+              <Card
+                className='animate__animated animate__slideInLeft'
+                style={{ marginBottom: '40px' }}
+              >
+                <Card.Img variant='top' src={guides} />
+                <Card.Body>
+                  <Card.Title>
+                    <strong>Guides</strong>
+                  </Card.Title>
+                  <Card.Text>
+                    The Guides section is intended for brief explanations on
+                    various topics, such as how to set up Netlify forms in
+                    React.
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='/guides'
+                  >
+                    Go to Guides
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+
+            <Col md={6}>
+              <Card
+                className='animate__animated animate__slideInRight'
+                style={{ marginBottom: '40px' }}
+              >
+                <Card.Img variant='top' src={shorts} />
+                <Card.Body>
+                  <Card.Title>
+                    <strong>Shorts</strong>
+                  </Card.Title>
+                  <Card.Text>
+                    The Shorts section is intended for quick tips, such as how
+                    to remove unwanted whitespace in the browser in React.
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='shorts-btn'
+                    variant='success'
+                    href='/shorts'
+                  >
+                    Go to Shorts
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
               <p>
                 &copy; 2020 CoderGuides | CoderGuides was created and developed
                 by{' '}
