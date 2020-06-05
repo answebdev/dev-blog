@@ -7,11 +7,63 @@ import ng2 from '../../img/ng02.webp';
 import ng3 from '../../img/ng03.webp';
 import ng4 from '../../img/ng04.webp';
 import ng5 from '../../img/ng05.png';
-import ng6 from '../../img/ng06.png';
+// import ng6 from '../../img/ng06.png';
 import rp5 from '../../img/rp05.webp';
 import ng7 from '../../img/ng07.webp';
 import ng8 from '../../img/ng08.webp';
 import nextGen from '../../img/next-gen.pdf';
+
+import Prism from 'prismjs';
+import 'prismjs/themes/prism-okaidia.css';
+
+Prism.highlightAll();
+
+// Prism Line Number Plugin
+// Source: https://davidwalsh.name/prism-line-number-plugin
+/*
+	This plugins was created based on the Prism line-numbering plugin.
+	This plugin aims to number all lines and is independent of highlighting.
+*/
+(function () {
+  if (!window.Prism || !document.querySelectorAll) {
+    return;
+  }
+
+  function $$(expr, con) {
+    return Array.prototype.slice.call((con || document).querySelectorAll(expr));
+  }
+
+  function numberLines(pre) {
+    var offset = +pre.getAttribute('data-line-offset') || 0;
+    var lineHeight = parseFloat(getComputedStyle(pre).lineHeight);
+    var code = pre.querySelector('code');
+    var numLines = code.innerHTML.split('\n').length;
+    pre.setAttribute('data-number', '');
+
+    for (var i = 1; i <= numLines; i++) {
+      var line = document.createElement('div');
+      line.className = 'line-number';
+      line.setAttribute('data-start', i);
+      line.style.top = (i - offset - 1) * lineHeight + 'px';
+
+      (code || pre).appendChild(line);
+    }
+  }
+
+  Prism.hooks.add('after-highlight', function (env) {
+    var pre = env.element.parentNode;
+
+    if (!pre || !/pre/i.test(pre.nodeName)) {
+      return;
+    }
+
+    $$('.line-number', pre).forEach(function (line) {
+      line.parentNode.removeChild(line);
+    });
+
+    numberLines(pre);
+  });
+})();
 
 const NextGen = () => {
   return (
@@ -185,16 +237,29 @@ const NextGen = () => {
               <br />
               <p>
                 3. Import the image with the new <strong>.webp</strong>{' '}
-                extension (line 5).
+                extension (line 3).
               </p>
               <p>
+                <pre>
+                  <code className='language-javascript'>
+                    {`import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import skirt from '../../img/skirt.webp';
+
+const Home = () => {
+  return (
+-- REST OF CODE --`}
+                  </code>
+                </pre>
+              </p>
+              {/* <p>
                 <img
                   src={ng6}
                   className='img-fluid mb-3'
                   title='Code Detail'
                   alt='Code Detail'
                 />
-              </p>
+              </p> */}
               <br />
               <p>4. And that’s it. Now it should work.</p>
               <p>
