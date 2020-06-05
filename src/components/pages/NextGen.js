@@ -7,7 +7,6 @@ import ng2 from '../../img/ng02.webp';
 import ng3 from '../../img/ng03.webp';
 import ng4 from '../../img/ng04.webp';
 import ng5 from '../../img/ng05.png';
-// import ng6 from '../../img/ng06.png';
 import rp5 from '../../img/rp05.webp';
 import ng7 from '../../img/ng07.webp';
 import ng8 from '../../img/ng08.webp';
@@ -252,14 +251,6 @@ const Home = () => {
                   </code>
                 </pre>
               </p>
-              {/* <p>
-                <img
-                  src={ng6}
-                  className='img-fluid mb-3'
-                  title='Code Detail'
-                  alt='Code Detail'
-                />
-              </p> */}
               <br />
               <p>4. And that’s it. Now it should work.</p>
               <p>

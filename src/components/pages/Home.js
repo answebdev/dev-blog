@@ -38,10 +38,7 @@ const Home = () => {
 
           <Row>
             <Col md={6}>
-              <Card
-                className='animate__animated animate__slideInLeft'
-                style={{ marginBottom: '40px' }}
-              >
+              <Card style={{ marginBottom: '40px' }}>
                 <Card.Img variant='top' src={guides} />
                 <Card.Body>
                   <Card.Title>
@@ -65,10 +62,7 @@ const Home = () => {
             </Col>
 
             <Col md={6}>
-              <Card
-                className='animate__animated animate__slideInRight'
-                style={{ marginBottom: '40px' }}
-              >
+              <Card style={{ marginBottom: '40px' }}>
                 <Card.Img variant='top' src={shorts} />
                 <Card.Body>
                   <Card.Title>

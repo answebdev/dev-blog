@@ -48,7 +48,7 @@ const WhitespaceReact = () => {
                     &nbsp;&nbsp;
                     <span
                       style={{
-                        fontFamily: 'Oxygen',
+                        fontFamily: 'Quicksand',
                         fontSize: '16px',
                         color: '#3e63bd',
                       }}

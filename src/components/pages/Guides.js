@@ -67,6 +67,9 @@ const Guides = () => {
                     Read More
                   </Button>
                 </Card.Body>
+                <Card.Footer>
+                  <small className='text-muted'>June 5, 2020</small>
+                </Card.Footer>
               </Card>
             </Col>
           </Row>
@@ -117,6 +120,9 @@ const Guides = () => {
                     Read More
                   </Button>
                 </Card.Body>
+                <Card.Footer>
+                  <small className='text-muted'>June 5, 2020</small>
+                </Card.Footer>
               </Card>
             </Col>
           </Row>
