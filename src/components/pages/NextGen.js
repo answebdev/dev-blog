@@ -116,6 +116,7 @@ const NextGen = () => {
                   </i>
                 </a>
               </p>
+              <br />
               <p>
                 <strong>Introduction</strong>
               </p>
@@ -142,6 +143,7 @@ const NextGen = () => {
                 cellular data."
               </p>
               <p>
+                <br />
                 <strong>Lighthouse</strong>
               </p>
               <p>

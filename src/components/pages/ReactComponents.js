@@ -60,7 +60,7 @@ const ReactComponents = () => {
                   </i>
                 </a>
               </p>
-
+              <br />
               <p>
                 I was recently working on a project in React, and I had two
                 different component folders: Pages and Layout. Inside the Layout

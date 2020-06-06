@@ -58,6 +58,7 @@ const WhitespaceReact = () => {
                   </i>
                 </a>
               </p>
+              <br />
               <p>
                 I came across this issue when I was working on a project in
                 React. You can see here that there is an extra space added
@@ -158,9 +159,9 @@ const WhitespaceReact = () => {
               <br />
               <p>
                 And now the problem is solved. Now there is just one space
-                between the words "click" and "here".
+                between the words "click" and "here". And there is no longer any
+                unwanted whitespace:
               </p>
-              <p>And that's it! We no longer have unwanted whitespace:</p>
               <p>
                 <img
                   src={ws8}
