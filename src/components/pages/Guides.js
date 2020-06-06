@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import nextGen from '../../img/next-gen.webp';
-import netlifyForms from '../../img/netlify-forms.webp';
+// import netlifyForms from '../../img/netlify-forms.webp';
 
 const Guides = () => {
   return (
@@ -74,7 +74,7 @@ const Guides = () => {
             </Col>
           </Row>
 
-          <Row>
+          {/* <Row>
             <Col md={12}>
               <Card style={{ marginBottom: '40px' }}>
                 <Card.Body>
@@ -125,7 +125,7 @@ const Guides = () => {
                 </Card.Footer>
               </Card>
             </Col>
-          </Row>
+          </Row> */}
         </div>
       </Container>
     </div>
