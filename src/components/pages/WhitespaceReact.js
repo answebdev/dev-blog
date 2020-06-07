@@ -118,7 +118,7 @@ const WhitespaceReact = () => {
               <br />
               <p>
                 2. Next, add inline styling for each of these and do a{' '}
-                <strong>marginLeft</strong>
+                <strong>marginLeft </strong>
                 of "-10px" (lines 26 and 28):
               </p>
               <p>
