@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import nextGen from '../../img/next-gen.webp';
+import openGraph from '../../img/open-graph.webp';
 // import netlifyForms from '../../img/netlify-forms.webp';
 
 const Guides = () => {
@@ -21,6 +22,52 @@ const Guides = () => {
               <p>Mini-guides on a variety of topics.</p>
               <hr />
               <br />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <Card style={{ marginBottom: '40px' }}>
+                <Card.Body>
+                  <Card.Title>
+                    <Image
+                      src={openGraph}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
+                    <strong>
+                      Adding Open Graph Meta Tags to Your App or Website
+                    </strong>
+                  </Card.Title>
+                  <Card.Text>
+                    <p>
+                      Have you ever wondered how to control the content that is
+                      displayed when you post a link to your app or website on
+                      social media, like Facebook? Or for that matter, how to
+                      even display any content? This is done through the use of
+                      Open Graph meta tags. Click to learn how to add these to
+                      your projects.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='/guides/adding-open-graph-meta-tags-to-your-app-or-website'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Read More
+                  </Button>
+                </Card.Body>
+                <Card.Footer>
+                  <small className='text-muted'>June 6, 2020</small>
+                </Card.Footer>
+              </Card>
             </Col>
           </Row>
 
