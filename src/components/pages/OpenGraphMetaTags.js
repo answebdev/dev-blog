@@ -10,7 +10,7 @@ import og5 from '../../img/og05.webp';
 import og6 from '../../img/og06.webp';
 import og7 from '../../img/og07.webp';
 import og8 from '../../img/og08.webp';
-// import nextGen from '../../img/next-gen.pdf';
+import openGraph from '../../pdf/open-graph.pdf';
 
 import Prism from 'prismjs';
 import 'prismjs/themes/prism-okaidia.css';
@@ -90,10 +90,10 @@ const OpenGraphMetaTags = () => {
                 social media.
               </p>
 
-              {/* <p>
+              <p>
                 <a
-                  src={nextGen}
-                  href={nextGen}
+                  src={openGraph}
+                  href={openGraph}
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{ padding: '0' }}
@@ -114,7 +114,7 @@ const OpenGraphMetaTags = () => {
                     </span>
                   </i>
                 </a>
-              </p> */}
+              </p>
 
               <br />
               <p>
@@ -354,7 +354,7 @@ const OpenGraphMetaTags = () => {
               </p>
               <br />
               <p>
-                So, that's it. When we share our link, the information that we
+                And that's it. When we share our link, the information that we
                 added will be displayed.
               </p>
               <p>

@@ -10,7 +10,7 @@ import ng5 from '../../img/ng05.png';
 import rp5 from '../../img/rp05.webp';
 import ng7 from '../../img/ng07.webp';
 import ng8 from '../../img/ng08.webp';
-import nextGen from '../../img/next-gen.pdf';
+import nextGen from '../../pdf/next-gen.pdf';
 
 import Prism from 'prismjs';
 import 'prismjs/themes/prism-okaidia.css';

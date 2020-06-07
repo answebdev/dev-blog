@@ -7,7 +7,7 @@ import rp2 from '../../img/rp02.webp';
 import rp3 from '../../img/rp03.png';
 import rp4 from '../../img/rp04.png';
 import rp5 from '../../img/rp05.webp';
-import components from '../../img/components.pdf';
+import components from '../../pdf/components.pdf';
 
 const ReactComponents = () => {
   return (

@@ -10,7 +10,7 @@ import ws5 from '../../img/ws05.png';
 import ws6 from '../../img/ws06.png';
 import ws7 from '../../img/ws07.png';
 import ws8 from '../../img/ws08.png';
-import whitespace from '../../img/whitespace.pdf';
+import whitespace from '../../pdf/whitespace.pdf';
 
 const WhitespaceReact = () => {
   return (
