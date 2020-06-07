@@ -178,9 +178,9 @@ const OpenGraphMetaTags = () => {
                 particular ones that I usually change, for example, line 12.
                 This is where you choose the image that you want displayed (see
                 the example in the previous image). Make sure to use the correct
-                file path for your image here. The dimensions that I use for my
-                images are 1920 x 1080 pixels, although other dimensions may
-                work better for your needs. I like to use
+                file path for your image here. I find that the dimensions that
+                work best for my images are 1920 x 1080 pixels, although other
+                dimensions may work better for your needs. I like to use
                 <a
                   className='click'
                   href='https://www.canva.com/'
@@ -198,8 +198,8 @@ const OpenGraphMetaTags = () => {
                 I also change line 17. This is where you put in the URL of the
                 page. You can see the URL displayed in the example in the
                 previous image. In our example here, we are adding these Open
-                Graph tags to the <strong>index.html,</strong> file (the home
-                page of this website), so the link that I put here is simply
+                Graph tags to the index.html, file (the home page of this
+                website), so the link that I put here is simply
                 "https://esl-toolbox.com/". I usually like to add Open Graph
                 tags to each page of my app or website, changing the information
                 accordingly. For example, if this were the About Page, then the
@@ -209,10 +209,9 @@ const OpenGraphMetaTags = () => {
               <p>
                 The next Open Graph tag that I customize is the title in line
                 18. In the previous image, the title is displayed under the URL:{' '}
-                "ESL Toolbox". On my About Page (so, in my{' '}
-                <strong>about.html</strong> file), my title would be "ESL
-                Toolbox | About". It's up to you and how you want to customize
-                what is displayed.
+                "ESL Toolbox". On my About Page (so, in my about.html file), my
+                title would be "ESL Toolbox | About". It's up to you and how you
+                want to customize what is displayed.
               </p>
               <p>
                 Finally, I like to add a description (line 19). In the previous
@@ -269,7 +268,8 @@ const OpenGraphMetaTags = () => {
               <br />
               <p>
                 2. Now that we've added the Open Graph tags to our code, the
-                next thing we need to do is to scrape our page, so that we can
+                next thing we need to do is to scrape our page, so that the
+                information for our page can be fetched, and so that we can
                 preview how our content will look when it's shared on Facebook,
                 Messenger and other places. This is done for each page that Open
                 Graph tags are added to.
