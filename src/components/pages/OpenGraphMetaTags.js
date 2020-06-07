@@ -173,7 +173,7 @@ const OpenGraphMetaTags = () => {
                 1. The first thing to do is to add the Open Graph tags to your
                 code. These are added up above in the {`<head>`} of each page
                 that you want this information in. In the example below, the
-                Open Graph tags are in lines 12-19. This is where you add the
+                Open Graph tags are in lines 12-20. This is where you add the
                 information that will appear when you share your link. There are
                 particular ones that I usually change, for example, line 12.
                 This is where you choose the image that you want displayed (see
@@ -214,10 +214,11 @@ const OpenGraphMetaTags = () => {
                 want to customize what is displayed.
               </p>
               <p>
-                Finally, I like to add a description (line 19). In the previous
-                image, you can see that the description reads, "ESL Toolbox is a
-                resource hub for students and teachers of ESL." The description
-                that I have on my About Page is simply, "About ESL Toolbox."
+                Finally, I like to add a description (lines 19-20). In the
+                previous image, you can see that the description reads, "ESL
+                Toolbox is a resource hub for students and teachers of ESL." The
+                description that I have on my About Page is simply, "About ESL
+                Toolbox."
               </p>
               <p>
                 These are the Open Graph tags that I usually like to add. For
@@ -254,10 +255,12 @@ const OpenGraphMetaTags = () => {
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://esl-toolbox.com/" />
     <meta property="og:title" content="ESL Toolbox" />
-    <meta property="og:description" content="ESL Toolbox is a resource hub for students and teachers of ESL." />
+    <meta property="og:description" content="ESL Toolbox is a resource hub for students
+      and teachers of ESL." />
     <!-- Link to Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
 </head>
 
 <body>
