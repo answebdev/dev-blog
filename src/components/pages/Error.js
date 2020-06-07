@@ -12,7 +12,9 @@ const Error = () => {
         <Row>
           <Col md={12}>
             <div id='error-msg'>
-              <h2 className='text-center'>Oops!</h2>
+              <h2 className='text-center'>
+                <strong>Oops!</strong>
+              </h2>
               <p></p>
               <p className='text-center'>404 Page Not Found.</p>
               <div id='back-div'>

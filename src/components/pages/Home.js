@@ -45,9 +45,9 @@ const Home = () => {
                     <strong>Guides</strong>
                   </Card.Title>
                   <Card.Text>
-                    The Guides section is intended for brief explanations on
-                    various topics, such as how to set up Netlify forms in
-                    React.
+                    Check out the Guides section for explanations on various
+                    topics, such as how to add Open Graph meta tags to Your App
+                    or Website.
                   </Card.Text>
                   <Button
                     className='button'
@@ -69,8 +69,9 @@ const Home = () => {
                     <strong>Shorts</strong>
                   </Card.Title>
                   <Card.Text>
-                    The Shorts section is intended for quick tips, such as how
-                    to remove unwanted whitespace in the browser in React.
+                    In the Shorts section, you'll find quick tips, such as how
+                    to remove unwanted whitespace in your content in the browser
+                    in React.
                   </Card.Text>
                   <Button
                     className='button'
