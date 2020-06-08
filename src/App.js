@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from './components/pages/LandingPage';
 import Home from './components/pages/Home';
 import Guides from './components/pages/Guides';
-import Shorts from './components/pages/Shorts';
+import Notes from './components/pages/Notes';
 import Error from './components/pages/Error';
 import OpenGraphMetaTags from './components/pages/OpenGraphMetaTags';
 import NextGen from './components/pages/NextGen';
@@ -27,7 +27,7 @@ const App = () => {
               <Route exact path='/' component={LandingPage} />
               <Route exact path='/home' component={Home} />
               <Route exact path='/guides' component={Guides} />
-              <Route exact path='/shorts' component={Shorts} />
+              <Route exact path='/notes' component={Notes} />
               <Route
                 exact
                 path='/guides/adding-open-graph-meta-tags-to-your-app-or-website'

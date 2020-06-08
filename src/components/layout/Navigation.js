@@ -22,7 +22,7 @@ const Navigation = ({ title }) => {
               <Link to='/guides'>Guides</Link>
             </li>
             <li>
-              <Link to='/shorts'>Shorts</Link>
+              <Link to='/notes'>Notes</Link>
             </li>
           </ul>
         </div>

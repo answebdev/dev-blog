@@ -1,8 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import guides from '../../img/guides.webp';
-import shorts from '../../img/shorts.webp';
+// import guides from '../../img/guides.webp';
+// import shorts from '../../img/shorts.webp';
+
+import coderguides from '../../img/CoderGuides.webp';
 
 const Home = () => {
   return (
@@ -14,6 +16,71 @@ const Home = () => {
         <br />
         <div className='content-div'>
           <Row>
+            <Col md={12}>
+              <h3>
+                <strong>Welcome to CoderGuides</strong>
+              </h3>
+              <hr />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={6}>
+              <p>
+                Welcome to CoderGuides. This site is dedicated to guides and
+                notes on various topics related to web development. I originally
+                created these notes to help me throughout my web development
+                journey. But I decided to create this site to leave the notes
+                I've created in hopes of helping others. I realize that there
+                may be more than one way to tackle the problems put forth here,
+                and that these are not the only ways to approach the presented
+                issues. And I am aware that what may work for some may not work
+                for others. But this is what helped me, and perhaps others may
+                find the information here useful.
+              </p>
+              <p>
+                This site is currently divided into two sections: Guides and
+                Notes. Feel free to take a look around and share with others.
+              </p>
+
+              {/* <br /> */}
+
+              <Button
+                className='button'
+                id='guides-btn'
+                variant='success'
+                href='/guides'
+                style={{ marginRight: '5px', marginBottom: '40px' }}
+              >
+                Go to Guides
+              </Button>
+              <Button
+                className='button'
+                id='shorts-btn'
+                variant='success'
+                href='/notes'
+                style={{ marginRight: '5px', marginBottom: '40px' }}
+              >
+                Go to Notes
+              </Button>
+            </Col>
+
+            <Col md={6}>
+              <Image
+                src={coderguides}
+                // alt='CoderGuides'
+                // title='CoderGuides'
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  // float: 'right',
+                }}
+                fluid
+              />
+            </Col>
+          </Row>
+
+          {/* <Row>
             <Col md={12}>
               <h3>
                 <strong>Welcome to CoderGuides</strong>
@@ -34,9 +101,9 @@ const Home = () => {
               </p>
               <br />
             </Col>
-          </Row>
+          </Row> */}
 
-          <Row>
+          {/* <Row>
             <Col md={6}>
               <Card style={{ marginBottom: '40px' }}>
                 <Card.Img variant='top' src={guides} />
@@ -84,8 +151,8 @@ const Home = () => {
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
-
+          </Row> */}
+          <hr />
           <Row>
             <Col md={12}>
               <p>

@@ -4,11 +4,11 @@ import { Helmet } from 'react-helmet';
 import whitespace from '../../img/whitespace.webp';
 import reactComponents from '../../img/react-components.webp';
 
-const Shorts = () => {
+const Notes = () => {
   return (
     <div>
       <Helmet>
-        <title>CoderGuides | Shorts</title>
+        <title>CoderGuides | Notes</title>
       </Helmet>
       <Container className='container' fluid>
         <br />
@@ -16,7 +16,7 @@ const Shorts = () => {
           <Row>
             <Col md={12}>
               <h3>
-                <strong>Shorts</strong>
+                <strong>Notes</strong>
               </h3>
               <p>Quick tips, tricks, and hacks.</p>
               <hr />
@@ -119,4 +119,4 @@ const Shorts = () => {
   );
 };
 
-export default Shorts;
+export default Notes;
