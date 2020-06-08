@@ -27,9 +27,9 @@ html {
 
 body {
   /* font-family: 'Oxygen', sans-serif; */
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 18px;
   color: #26231e;
   position: relative;
   margin: 0;
@@ -141,6 +141,10 @@ body {
 }
 /* End Navbar */
 
+.card-title {
+  font-family: 'Quicksand', sans-serif;
+}
+
 /* Prism Line Number Plugin */
 pre[data-number] {
   position: relative;
@@ -230,6 +234,7 @@ a:hover {
 #guides-btn,
 #notes-btn,
 #error-btn {
+  font-family: 'Quicksand', sans-serif;
   background: #ff6347;
   border-color: #ff6347;
   margin-right: 5px;
