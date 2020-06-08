@@ -23,7 +23,7 @@ const LandingPage = () => {
         
         .navbar,
         .footer {
-          display:none;
+          display: none;
         }
     `}</style>
       </Helmet>
