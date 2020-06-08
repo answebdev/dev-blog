@@ -228,10 +228,12 @@ a:hover {
 }
 
 #guides-btn,
-#shorts-btn,
+#notes-btn,
 #error-btn {
   background: #ff6347;
   border-color: #ff6347;
+  margin-right: 5px;
+  margin-bottom: 40px;
 }
 
 #disclaimer {
@@ -433,5 +435,13 @@ Source: https://chrisbracco.com/css-sticky-footer-effect/ */
 
   .nav-link {
     font-size: 12px;
+  }
+
+  #guides-btn {
+    margin-bottom: 10px;
+  }
+
+  #notes-btn {
+    margin-bottom: 40px;
   }
 }

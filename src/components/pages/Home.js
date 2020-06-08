@@ -50,16 +50,14 @@ const Home = () => {
                 id='guides-btn'
                 variant='success'
                 href='/guides'
-                style={{ marginRight: '5px', marginBottom: '40px' }}
               >
                 Go to Guides
               </Button>
               <Button
                 className='button'
-                id='shorts-btn'
+                id='notes-btn'
                 variant='success'
                 href='/notes'
-                style={{ marginRight: '5px', marginBottom: '40px' }}
               >
                 Go to Notes
               </Button>
