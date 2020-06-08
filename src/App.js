@@ -45,12 +45,12 @@ const App = () => {
               />
               <Route
                 exact
-                path='/shorts/removing-unwanted-whitespace-in-react'
+                path='/notes/removing-unwanted-whitespace-in-react'
                 component={WhitespaceReact}
               />
               <Route
                 exact
-                path='/shorts/how-to-not-render-a-component-on-a-paricular-page-in-react'
+                path='/notes/how-to-not-render-a-component-on-a-paricular-page-in-react'
                 component={ReactComponents}
               />
               <Route component={Error} />

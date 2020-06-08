@@ -52,9 +52,9 @@ const Notes = () => {
                   </Card.Text>
                   <Button
                     className='button'
-                    id='shorts-btn'
+                    id='notes-btn'
                     variant='success'
-                    href='/shorts/removing-unwanted-whitespace-in-react'
+                    href='/notes/removing-unwanted-whitespace-in-react'
                     style={{ marginRight: '5px' }}
                   >
                     Read More
@@ -99,9 +99,9 @@ const Notes = () => {
                   </Card.Text>
                   <Button
                     className='button'
-                    id='shorts-btn'
+                    id='notes-btn'
                     variant='success'
-                    href='/shorts/how-to-not-render-a-component-on-a-paricular-page-in-react'
+                    href='/notes/how-to-not-render-a-component-on-a-paricular-page-in-react'
                     style={{ marginRight: '5px' }}
                   >
                     Read More
