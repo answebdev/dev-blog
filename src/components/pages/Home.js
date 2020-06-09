@@ -75,8 +75,7 @@ const Home = () => {
           <Row>
             <Col md={12}>
               <p>
-                &copy; 2020 CoderGuides | CoderGuides was created and developed
-                by{' '}
+                &copy; 2020 CoderGuides | Created, developed, and maintained by{' '}
                 <a
                   className='click'
                   href='https://adolfschmuck.com/'
