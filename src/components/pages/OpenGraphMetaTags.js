@@ -85,8 +85,8 @@ const OpenGraphMetaTags = () => {
               <hr />
               <br />
               <p>
-                <strong>The goal: </strong>Adding Open Graph meta tags to your
-                web application to control what is displayed when shared on
+                <strong>The objective: </strong>To add Open Graph meta tags to
+                your web application to control what is displayed when shared on
                 social media.
               </p>
 
@@ -151,6 +151,11 @@ const OpenGraphMetaTags = () => {
                 used by other social media sites, including LinkedIn and
                 Twitter."
               </p>
+
+              <p>
+                The goal here then, is to have it look something like this when
+                sharing a link to your app or website on social media:
+              </p>
               <p>
                 <img
                   src={og2}
@@ -173,9 +178,9 @@ const OpenGraphMetaTags = () => {
                 1. The first thing to do is to add the Open Graph tags to your
                 code. These are added up above in the {`<head>`} of each page
                 that you want this information in. In the example below, the
-                Open Graph tags are in lines 12-20. This is where you add the
+                Open Graph tags are in lines 13-21. This is where you add the
                 information that will appear when you share your link. There are
-                particular ones that I usually change, for example, line 12.
+                particular ones that I usually change, for example, line 13.
                 This is where you choose the image that you want displayed (see
                 the example in the previous image). Make sure to use the correct
                 file path for your image here. I find that the dimensions that
@@ -195,7 +200,7 @@ const OpenGraphMetaTags = () => {
                 This is what works for me, though.
               </p>
               <p>
-                I also change line 17. This is where you put in the URL of the
+                I also change line 18. This is where you put in the URL of the
                 page. You can see the URL displayed in the example in the
                 previous image. In our example here, we are adding these Open
                 Graph tags to the index.html, file (the home page of this
@@ -208,13 +213,13 @@ const OpenGraphMetaTags = () => {
               </p>
               <p>
                 The next Open Graph tag that I customize is the title in line
-                18. In the previous image, the title is displayed under the URL:{' '}
+                19. In the previous image, the title is displayed under the URL:{' '}
                 "ESL Toolbox". On my About Page (so, in my about.html file), my
                 title would be "ESL Toolbox | About". It's up to you and how you
                 want to customize what is displayed.
               </p>
               <p>
-                Finally, I like to add a description (lines 19-20). In the
+                Finally, I like to add a description (lines 20-21). In the
                 previous image, you can see that the description reads, "ESL
                 Toolbox is a resource hub for students and teachers of ESL." The
                 description that I have on my About Page is simply, "About ESL
@@ -244,7 +249,8 @@ const OpenGraphMetaTags = () => {
     <title>ESL Toolbox</title>
     <link rel="icon" href="assets/images/tools.png">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-8">
     <!-- Open Graph Tags -->
@@ -255,12 +261,8 @@ const OpenGraphMetaTags = () => {
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://esl-toolbox.com/" />
     <meta property="og:title" content="ESL Toolbox" />
-    <meta property="og:description" content="ESL Toolbox is a resource hub for students
-      and teachers of ESL." />
-    <!-- Link to Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <meta property="og:description" content="ESL Toolbox is a resource hub
+      for students and teachers of ESL." />
 </head>
 
 <body>
@@ -355,7 +357,7 @@ const OpenGraphMetaTags = () => {
               <br />
               <p>
                 And that's it. When we share our link, the information that we
-                added will be displayed.
+                added will now be displayed.
               </p>
               <p>
                 <img
