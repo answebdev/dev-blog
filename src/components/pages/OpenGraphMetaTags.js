@@ -85,8 +85,8 @@ const OpenGraphMetaTags = () => {
               <hr />
               <br />
               <p>
-                <strong>The objective: </strong>Adding Open Graph meta tags to
-                your web application to control what is displayed when shared on
+                <strong>The goal: </strong>Adding Open Graph meta tags to your
+                web application to control what is displayed when shared on
                 social media.
               </p>
 
