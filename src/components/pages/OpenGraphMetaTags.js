@@ -70,11 +70,12 @@ const OpenGraphMetaTags = () => {
       <Helmet>
         <title>
           CoderGuides | Adding Open Graph Meta Tags to Your App or Website
-          <script
-            type='text/javascript'
-            src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ca2b7e7294c6ab7'
-          ></script>
         </title>
+
+        <script
+          type='text/javascript'
+          src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ca2b7e7294c6ab7'
+        ></script>
       </Helmet>
       <Container className='container' fluid>
         <br />
