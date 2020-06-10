@@ -82,8 +82,12 @@ const OpenGraphMetaTags = () => {
                   Adding Open Graph Meta Tags to Your App or Website
                 </strong>
               </h3>
+
               <hr />
+              {/* AddThis ShareButtons */}
+              <div class='addthis_inline_share_toolbox_2bt4'></div>
               <br />
+
               <p>
                 <strong>Objective: </strong>To add Open Graph meta tags to your
                 web application to control what is displayed when shared on
