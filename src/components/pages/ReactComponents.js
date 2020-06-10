@@ -31,8 +31,8 @@ const ReactComponents = () => {
               <hr />
               <br />
               <p>
-                <strong>The problem: </strong>Layout components rendering on
-                pages you don't want them to.
+                <strong>Problem: </strong>Layout components rendering on pages
+                you don't want them to.
               </p>
 
               <p>

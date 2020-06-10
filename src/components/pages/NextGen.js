@@ -87,8 +87,8 @@ const NextGen = () => {
               <hr />
               <br />
               <p>
-                <strong>The problem: </strong>Slow loading time on an
-                application's pages.
+                <strong>Problem: </strong>Slow loading time on an application's
+                pages.
               </p>
 
               <p>

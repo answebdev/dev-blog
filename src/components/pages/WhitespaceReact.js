@@ -29,8 +29,8 @@ const WhitespaceReact = () => {
               <hr />
               <br />
               <p>
-                <strong>The problem: </strong>Unwanted whitespace in the browser
-                in a React app.
+                <strong>Problem: </strong>Unwanted whitespace in the browser in
+                a React app.
               </p>
 
               <p>

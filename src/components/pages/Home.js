@@ -31,9 +31,9 @@ const Home = () => {
                 I've created in hopes of helping others. I realize that there
                 may be more than one way to tackle the problems put forth here,
                 and that these are not the only ways to approach the presented
-                issues. And I am aware that what may work for some may not work
-                for others. But this is what helped me, and perhaps others may
-                find the information here useful.
+                issues. And I know that what may work for some may not work for
+                others. But this is what helped me, and perhaps others may find
+                the information here useful.
               </p>
               <p>
                 This site is currently divided into two sections: Guides and
