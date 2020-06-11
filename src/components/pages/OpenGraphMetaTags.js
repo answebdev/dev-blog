@@ -72,6 +72,13 @@ const OpenGraphMetaTags = () => {
         <title>
           CoderGuides | Adding Open Graph Meta Tags to Your App or Website
         </title>
+        <style type='text/css'>{`
+    
+        .footer {
+          bottom: -5px;
+        }
+
+    `}</style>
       </Helmet>
       <Container className='container' fluid>
         <br />
@@ -420,7 +427,7 @@ const OpenGraphMetaTags = () => {
           <div>
             <ScrollUpButton
               style={{
-                marginBottom: '33px',
+                marginBottom: '35px',
                 marginRight: '-15px',
                 background: '#ff6347',
                 borderRadius: '5px',
