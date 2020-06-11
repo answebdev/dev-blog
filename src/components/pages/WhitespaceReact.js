@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import ScrollUpButton from 'react-scroll-up-button';
+import { InlineShareButtons } from 'sharethis-reactjs';
 import ws1 from '../../img/ws01.png';
 import ws2 from '../../img/ws02.png';
 import ws3 from '../../img/ws03.png';
@@ -17,6 +18,13 @@ const WhitespaceReact = () => {
     <div>
       <Helmet>
         <title>CoderGuides | Removing Unwanted Whitespace in React</title>
+        <style type='text/css'>{`
+    
+        .footer {
+          bottom: -5px;
+        }
+
+      `}</style>
       </Helmet>
       <Container className='container' fluid>
         <br />
@@ -27,6 +35,41 @@ const WhitespaceReact = () => {
                 <strong>Removing Unwanted Whitespace in React</strong>
               </h3>
               <hr />
+              <InlineShareButtons
+                config={{
+                  alignment: 'left', // alignment of buttons (left, center, right)
+                  color: 'social', // set the color of buttons (social, white)
+                  enabled: true, // show/hide buttons (true, false)
+                  font_size: 16, // font size for the buttons
+                  labels: 'cta', // button labels (cta, counts, null)
+                  language: 'en', // which language to use (see LANGUAGES)
+                  networks: [
+                    // which networks to include (see SHARING NETWORKS)
+                    'facebook',
+                    'twitter',
+                    'linkedin',
+                    'pinterest',
+                    'email',
+                    'sharethis',
+                  ],
+                  padding: 12, // padding within buttons (INTEGER)
+                  radius: 4, // the corner radius on each button (INTEGER)
+                  show_total: true,
+                  size: 40, // the size of each button (INTEGER)
+
+                  // OPTIONAL PARAMETERS
+                  url:
+                    'https://coderguides.com/notes/removing-unwanted-whitespace-in-react', // (defaults to current url)
+                  image: 'https://bit.ly/2CMhCMC', // (defaults to og:image or twitter:image)
+                  description:
+                    'Guides and notes on various topics related to web development', // (defaults to og:description or twitter:description)
+                  title: 'CoderGuides', // (defaults to og:title or twitter:title)
+                  message:
+                    'https://coderguides.com/notes/removing-unwanted-whitespace-in-react', // (only for email sharing)
+                  subject: 'CoderGuides: Removing Unwanted Whitespace in React', // (only for email sharing)
+                  username: '', // (only for twitter sharing)
+                }}
+              />
               <br />
               <p>
                 <strong>Problem: </strong>Unwanted whitespace in the browser in
@@ -176,7 +219,7 @@ const WhitespaceReact = () => {
           <div>
             <ScrollUpButton
               style={{
-                marginBottom: '33px',
+                marginBottom: '35px',
                 marginRight: '-15px',
                 background: '#ff6347',
                 borderRadius: '5px',

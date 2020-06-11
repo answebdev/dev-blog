@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import ScrollUpButton from 'react-scroll-up-button';
+import { InlineShareButtons } from 'sharethis-reactjs';
 import rp1 from '../../img/rp01.webp';
 import rp2 from '../../img/rp02.webp';
 import rp3 from '../../img/rp03.png';
@@ -17,6 +18,13 @@ const ReactComponents = () => {
           CoderGuides | How to Not Render a Component on a Particular Page in
           React
         </title>
+        <style type='text/css'>{`
+    
+        .footer {
+          bottom: -5px;
+        }
+
+      `}</style>
       </Helmet>
       <Container className='container' fluid>
         <br />
@@ -29,6 +37,42 @@ const ReactComponents = () => {
                 </strong>
               </h3>
               <hr />
+              <InlineShareButtons
+                config={{
+                  alignment: 'left', // alignment of buttons (left, center, right)
+                  color: 'social', // set the color of buttons (social, white)
+                  enabled: true, // show/hide buttons (true, false)
+                  font_size: 16, // font size for the buttons
+                  labels: 'cta', // button labels (cta, counts, null)
+                  language: 'en', // which language to use (see LANGUAGES)
+                  networks: [
+                    // which networks to include (see SHARING NETWORKS)
+                    'facebook',
+                    'twitter',
+                    'linkedin',
+                    'pinterest',
+                    'email',
+                    'sharethis',
+                  ],
+                  padding: 12, // padding within buttons (INTEGER)
+                  radius: 4, // the corner radius on each button (INTEGER)
+                  show_total: true,
+                  size: 40, // the size of each button (INTEGER)
+
+                  // OPTIONAL PARAMETERS
+                  url:
+                    'https://coderguides.com/notes/how-to-not-render-a-component-on-a-paricular-page-in-react', // (defaults to current url)
+                  image: 'https://bit.ly/2CMhCMC', // (defaults to og:image or twitter:image)
+                  description:
+                    'Guides and notes on various topics related to web development', // (defaults to og:description or twitter:description)
+                  title: 'CoderGuides', // (defaults to og:title or twitter:title)
+                  message:
+                    'https://coderguides.com/notes/how-to-not-render-a-component-on-a-paricular-page-in-react', // (only for email sharing)
+                  subject:
+                    'CoderGuides: How to Not Render a Component on a Particular Page in React', // (only for email sharing)
+                  username: '', // (only for twitter sharing)
+                }}
+              />
               <br />
               <p>
                 <strong>Problem: </strong>Layout components rendering on pages
@@ -173,7 +217,7 @@ const ReactComponents = () => {
           <div>
             <ScrollUpButton
               style={{
-                marginBottom: '33px',
+                marginBottom: '35px',
                 marginRight: '-15px',
                 background: '#ff6347',
                 borderRadius: '5px',

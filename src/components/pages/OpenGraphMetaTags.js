@@ -78,7 +78,7 @@ const OpenGraphMetaTags = () => {
           bottom: -5px;
         }
 
-    `}</style>
+      `}</style>
       </Helmet>
       <Container className='container' fluid>
         <br />
