@@ -117,9 +117,11 @@ const OpenGraphMetaTags = () => {
                   url:
                     'https://coderguides.com/guides/adding-open-graph-meta-tags-to-your-app-or-website', // (defaults to current url)
                   image: 'https://bit.ly/2CMhCMC', // (defaults to og:image or twitter:image)
-                  description: 'custom text', // (defaults to og:description or twitter:description)
-                  title: 'custom title', // (defaults to og:title or twitter:title)
-                  message: 'Adding Open Graph Meta Tags to Your App or Website', // (only for email sharing)
+                  description:
+                    'Guides and notes on various topics related to web development', // (defaults to og:description or twitter:description)
+                  title: 'CoderGuides', // (defaults to og:title or twitter:title)
+                  message:
+                    'CoderGuides: Adding Open Graph Meta Tags to Your App or Website', // (only for email sharing)
                   subject:
                     'CoderGuides: Adding Open Graph Meta Tags to Your App or Website', // (only for email sharing)
                   username: '', // (only for twitter sharing)
