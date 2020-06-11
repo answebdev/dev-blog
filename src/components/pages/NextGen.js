@@ -124,8 +124,7 @@ const NextGen = () => {
                   title: 'CoderGuides', // (defaults to og:title or twitter:title)
                   message:
                     'https://coderguides.com/guides/using-next-gen-image-formats-to-enhance-your-apps-performance', // (only for email sharing)
-                  subject: `Using Next-gen Image Formats to Enhance Your App's Performance
-                    (React)`, // (only for email sharing)
+                  subject: `Using Next-gen Image Formats to Enhance Your App's Performance (React)`, // (only for email sharing)
                   username: '', // (only for twitter sharing)
                 }}
               />
