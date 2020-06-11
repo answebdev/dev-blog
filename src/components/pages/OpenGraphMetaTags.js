@@ -119,9 +119,10 @@ const OpenGraphMetaTags = () => {
                   image: 'https://bit.ly/2CMhCMC', // (defaults to og:image or twitter:image)
                   description: 'custom text', // (defaults to og:description or twitter:description)
                   title: 'custom title', // (defaults to og:title or twitter:title)
-                  message: 'custom email text', // (only for email sharing)
-                  subject: 'custom email subject', // (only for email sharing)
-                  username: 'custom twitter handle', // (only for twitter sharing)
+                  message: 'Adding Open Graph Meta Tags to Your App or Website', // (only for email sharing)
+                  subject:
+                    'CoderGuides: Adding Open Graph Meta Tags to Your App or Website', // (only for email sharing)
+                  username: '', // (only for twitter sharing)
                 }}
               />
               <br />
