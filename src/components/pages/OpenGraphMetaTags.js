@@ -115,7 +115,7 @@ const OpenGraphMetaTags = () => {
 
                   // OPTIONAL PARAMETERS
                   url:
-                    'http://localhost:3000/guides/adding-open-graph-meta-tags-to-your-app-or-website', // (defaults to current url)
+                    'https://coderguides.com/guides/adding-open-graph-meta-tags-to-your-app-or-website', // (defaults to current url)
                   image: 'https://bit.ly/2CMhCMC', // (defaults to og:image or twitter:image)
                   description: 'custom text', // (defaults to og:description or twitter:description)
                   title: 'custom title', // (defaults to og:title or twitter:title)
