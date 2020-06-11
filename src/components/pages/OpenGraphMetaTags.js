@@ -89,8 +89,9 @@ const OpenGraphMetaTags = () => {
               </h3>
 
               <hr />
-              {/* AddThis ShareButtons */}
-              <div class='addthis_inline_share_toolbox_2bt4'></div>
+
+              <div class='addthis_inline_share_toolbox_tesh'></div>
+
               <br />
 
               <p>
