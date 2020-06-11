@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import ScrollUpButton from 'react-scroll-up-button';
+import { InlineShareButtons } from 'sharethis-reactjs';
 import og1 from '../../img/og01.webp';
 import og2 from '../../img/og02.webp';
 import og3 from '../../img/og03.webp';
@@ -83,6 +84,39 @@ const OpenGraphMetaTags = () => {
                 </strong>
               </h3>
               <hr />
+              <InlineShareButtons
+                config={{
+                  alignment: 'left', // alignment of buttons (left, center, right)
+                  color: 'social', // set the color of buttons (social, white)
+                  enabled: true, // show/hide buttons (true, false)
+                  font_size: 16, // font size for the buttons
+                  labels: 'cta', // button labels (cta, counts, null)
+                  language: 'en', // which language to use (see LANGUAGES)
+                  networks: [
+                    // which networks to include (see SHARING NETWORKS)
+                    'facebook',
+                    'twitter',
+                    'linkedin',
+                    'pinterest',
+                    'email',
+                    'sharethis',
+                  ],
+                  padding: 12, // padding within buttons (INTEGER)
+                  radius: 4, // the corner radius on each button (INTEGER)
+                  show_total: true,
+                  size: 40, // the size of each button (INTEGER)
+
+                  // OPTIONAL PARAMETERS
+                  url:
+                    'http://localhost:3000/guides/adding-open-graph-meta-tags-to-your-app-or-website', // (defaults to current url)
+                  image: 'https://bit.ly/2CMhCMC', // (defaults to og:image or twitter:image)
+                  description: 'custom text', // (defaults to og:description or twitter:description)
+                  title: 'custom title', // (defaults to og:title or twitter:title)
+                  message: 'custom email text', // (only for email sharing)
+                  subject: 'custom email subject', // (only for email sharing)
+                  username: 'custom twitter handle', // (only for twitter sharing)
+                }}
+              />
               <br />
               <p>
                 <strong>Objective: </strong>To add Open Graph meta tags to your
