@@ -71,11 +71,6 @@ const OpenGraphMetaTags = () => {
         <title>
           CoderGuides | Adding Open Graph Meta Tags to Your App or Website
         </title>
-
-        <script
-          type='text/javascript'
-          src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ca2b7e7294c6ab7'
-        ></script>
       </Helmet>
       <Container className='container' fluid>
         <br />
@@ -87,13 +82,8 @@ const OpenGraphMetaTags = () => {
                   Adding Open Graph Meta Tags to Your App or Website
                 </strong>
               </h3>
-
               <hr />
-
-              <div class='addthis_inline_share_toolbox_tesh'></div>
-
               <br />
-
               <p>
                 <strong>Objective: </strong>To add Open Graph meta tags to your
                 web application to control what is displayed when shared on
