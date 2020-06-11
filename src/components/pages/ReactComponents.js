@@ -153,6 +153,7 @@ const ReactComponents = () => {
                   alt='Code Detail'
                 />
               </p>
+
               <br />
               <p>
                 And as you can see, I no longer have the Navbar and Footer
