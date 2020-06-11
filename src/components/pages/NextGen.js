@@ -73,13 +73,6 @@ const NextGen = () => {
           CoderGuides | Using Next-gen Image Formats to Enhance Your App's
           Performance (React)
         </title>
-        <style type='text/css'>{`
-    
-        .footer {
-          bottom: -5px;
-        }
-
-      `}</style>
       </Helmet>
       <Container className='container' fluid>
         <br />

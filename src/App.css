@@ -250,7 +250,7 @@ Source: https://chrisbracco.com/css-sticky-footer-effect/ */
 .footer {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   padding: 12px;
   background: #ff6347;

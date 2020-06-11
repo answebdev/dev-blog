@@ -18,13 +18,6 @@ const WhitespaceReact = () => {
     <div>
       <Helmet>
         <title>CoderGuides | Removing Unwanted Whitespace in React</title>
-        <style type='text/css'>{`
-    
-        .footer {
-          bottom: -5px;
-        }
-
-      `}</style>
       </Helmet>
       <Container className='container' fluid>
         <br />

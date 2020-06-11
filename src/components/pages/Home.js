@@ -8,13 +8,6 @@ const Home = () => {
     <div>
       <Helmet>
         <title>CoderGuides | Home</title>
-        <style type='text/css'>{`
-    
-        .footer {
-          bottom: -5px;
-        }
-
-      `}</style>
       </Helmet>
       <Container className='container' fluid>
         <br />

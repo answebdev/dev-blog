@@ -18,13 +18,6 @@ const ReactComponents = () => {
           CoderGuides | How to Not Render a Component on a Particular Page in
           React
         </title>
-        <style type='text/css'>{`
-    
-        .footer {
-          bottom: -5px;
-        }
-
-      `}</style>
       </Helmet>
       <Container className='container' fluid>
         <br />
