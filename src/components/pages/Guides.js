@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import nextGen from '../../img/next-gen.webp';
 import openGraph from '../../img/open-graph.webp';
+import alert from '../../img/alert.webp';
 // import netlifyForms from '../../img/netlify-forms.webp';
 
 const Guides = () => {
@@ -22,6 +23,49 @@ const Guides = () => {
               <p>Mini-guides on a variety of topics.</p>
               <hr />
               <br />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <Card style={{ marginBottom: '40px' }}>
+                <Card.Body>
+                  <Card.Title>
+                    <Image
+                      src={alert}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
+                    <strong>How to Beautify Your Alert Messages</strong>
+                  </Card.Title>
+                  <Card.Text>
+                    <p>
+                      If you don't like the way the default JavaScript alert
+                      message looks, learn how to replace it here with a more
+                      attractive alternative. Using SweetAlert, we can replace
+                      the default alert message with something that looks
+                      prettier. And it's easy to do. Read to learn how.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='/guides/how-to-beautify-your-alert-messages'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Read More
+                  </Button>
+                </Card.Body>
+                <Card.Footer>
+                  <small className='text-muted'>June 11, 2020</small>
+                </Card.Footer>
+              </Card>
             </Col>
           </Row>
 

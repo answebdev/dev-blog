@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import Guides from './components/pages/Guides';
 import Notes from './components/pages/Notes';
 import Error from './components/pages/Error';
+import AlertMessages from './components/pages/AlertMessages';
 import OpenGraphMetaTags from './components/pages/OpenGraphMetaTags';
 import NextGen from './components/pages/NextGen';
 import NetlifyFormReact from './components/pages/NetlifyFormReact';
@@ -28,6 +29,11 @@ const App = () => {
               <Route exact path='/home' component={Home} />
               <Route exact path='/guides' component={Guides} />
               <Route exact path='/notes' component={Notes} />
+              <Route
+                exact
+                path='/guides/how-to-beautify-your-alert-messages'
+                component={AlertMessages}
+              />
               <Route
                 exact
                 path='/guides/adding-open-graph-meta-tags-to-your-app-or-website'
