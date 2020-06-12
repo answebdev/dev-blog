@@ -5,8 +5,8 @@ import ScrollUpButton from 'react-scroll-up-button';
 import { InlineShareButtons } from 'sharethis-reactjs';
 import rp1 from '../../img/rp01.webp';
 import rp2 from '../../img/rp02.webp';
-import rp3 from '../../img/rp03.png';
-import rp4 from '../../img/rp04.png';
+import rp3 from '../../img/rp03.webp';
+import rp4 from '../../img/rp04.webp';
 import rp5 from '../../img/rp05.webp';
 import components from '../../pdf/components.pdf';
 
