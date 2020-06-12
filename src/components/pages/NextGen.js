@@ -139,7 +139,7 @@ const NextGen = () => {
                     className='fas fa-file-download'
                     style={{ color: '#3e63bd' }}
                   >
-                    &nbsp;&nbsp;
+                    &nbsp;
                     <span
                       style={{
                         fontFamily: 'Quicksand',
