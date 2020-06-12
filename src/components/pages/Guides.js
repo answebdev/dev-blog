@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import nextGen from '../../img/next-gen.webp';
 import openGraph from '../../img/open-graph.webp';
 import alert from '../../img/alert.webp';
+import customizedTitlesReact from '../../img/customized-titles.webp';
 // import netlifyForms from '../../img/netlify-forms.webp';
 
 const Guides = () => {
@@ -23,6 +24,52 @@ const Guides = () => {
               <p>Mini-guides on a variety of topics.</p>
               <hr />
               <br />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <Card style={{ marginBottom: '40px' }}>
+                <Card.Body>
+                  <Card.Title>
+                    <Image
+                      src={customizedTitlesReact}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
+                    <strong>
+                      How to Customize the Title of Any Page in React
+                    </strong>
+                  </Card.Title>
+                  <Card.Text>
+                    <p>
+                      Add a title for your app in your index.html file so that
+                      it is shown in a browser's title bar or a page's tab. This
+                      title will appear on all of your pages of your app. What
+                      do you do if you want to have a different title for each
+                      of the different pages of your app? Continue reading to
+                      learn how to do this using React Helmet.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='/guides/how-to-customize-the-title-of-any-page-in-react'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Read More
+                  </Button>
+                </Card.Body>
+                <Card.Footer>
+                  <small className='text-muted'>June 12, 2020</small>
+                </Card.Footer>
+              </Card>
             </Col>
           </Row>
 
