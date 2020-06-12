@@ -65,10 +65,6 @@ const AlertMessages = () => {
     <div>
       <Helmet>
         <title>CoderGuides | How to Beautify Your Alert Messages</title>
-        <link
-          rel='stylesheet'
-          href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/monokai.min.css'
-        ></link>
       </Helmet>
       <Container className='container' fluid>
         <br />
