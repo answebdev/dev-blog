@@ -48,8 +48,8 @@ const Guides = () => {
                       If you don't like the way the default JavaScript alert
                       message looks, learn how to replace it here with a more
                       attractive alternative. Using SweetAlert, we can replace
-                      the default alert message with something that looks
-                      prettier. And it's easy to do. Read to learn how.
+                      the default alert message with something that looks more
+                      attractive. And it's easy to do. Read to learn how.
                     </p>
                   </Card.Text>
                   <Button
