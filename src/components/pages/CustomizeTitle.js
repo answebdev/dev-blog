@@ -229,7 +229,7 @@ const AlertMessages = () => {
                 the same title (i.e. "CoderGuides") across all of your pages in
                 your app. So, what do we do if we want to customize the title of
                 each of our pages, so that each page in our app can have its own
-                individual title? This is where
+                individual title? We're going to use a package called
                 <a
                   className='click'
                   href='https://github.com/nfl/react-helmet'
@@ -238,11 +238,15 @@ const AlertMessages = () => {
                 >
                   <span style={{ marginLeft: '-10px' }}> React Helmet</span>
                 </a>
-                <span style={{ marginLeft: '-10px' }}> comes in.</span> React
-                Helmet is a document head manager for React that allows you to
-                manage all of your changes to the document head. There are
-                different ways that React Helmet is useful, but we're going to
-                use it here to help us customize the title of each of our pages.
+                <span style={{ marginLeft: '-10px' }}>
+                  {' '}
+                  to help us with this.
+                </span>{' '}
+                React Helmet is a document head manager for React that allows
+                you to manage all of your changes to the document head. There
+                are different ways that React Helmet is useful, but we're going
+                to use it here to help us customize the title of each of our
+                pages.
               </p>
               <br />
               <p>
