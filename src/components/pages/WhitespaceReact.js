@@ -3,14 +3,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import ScrollUpButton from 'react-scroll-up-button';
 import { InlineShareButtons } from 'sharethis-reactjs';
-import ws1 from '../../img/ws01.png';
-import ws2 from '../../img/ws02.png';
-import ws3 from '../../img/ws03.png';
-import ws4 from '../../img/ws04.png';
-import ws5 from '../../img/ws05.png';
-import ws6 from '../../img/ws06.png';
-import ws7 from '../../img/ws07.png';
-import ws8 from '../../img/ws08.png';
+import ws1 from '../../img/ws01.webp';
+import ws2 from '../../img/ws02.webp';
+import ws3 from '../../img/ws03.webp';
+import ws4 from '../../img/ws04.webp';
+import ws5 from '../../img/ws05.webp';
+import ws6 from '../../img/ws06.webp';
+import ws7 from '../../img/ws07.webp';
+import ws8 from '../../img/ws08.webp';
 import whitespace from '../../pdf/whitespace.pdf';
 
 const WhitespaceReact = () => {

@@ -7,7 +7,7 @@ import ng1 from '../../img/ng01.webp';
 import ng2 from '../../img/ng02.webp';
 import ng3 from '../../img/ng03.webp';
 import ng4 from '../../img/ng04.webp';
-import ng5 from '../../img/ng05.png';
+import ng5 from '../../img/ng05.webp';
 import rp5 from '../../img/rp05.webp';
 import ng7 from '../../img/ng07.webp';
 import ng8 from '../../img/ng08.webp';
