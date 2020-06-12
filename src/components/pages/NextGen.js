@@ -199,7 +199,7 @@ const NextGen = () => {
                 />
               </p>
               <br />
-              <p>Click on "Generate report":</p>
+              <p>Click on "Generate report".</p>
               <p>
                 <img
                   src={ng2}
