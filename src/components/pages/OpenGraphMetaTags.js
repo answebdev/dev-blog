@@ -174,7 +174,7 @@ const OpenGraphMetaTags = () => {
               </p>
               <br />
               <p>
-                This is where Open Graph media tags come in. As described
+                This is where Open Graph meta tags come in. As described
                 <a
                   className='click'
                   href='https://ahrefs.com/blog/open-graph-meta-tags/#:~:text=What%20are%20Open%20Graph%20meta,if%20Twitter%20Cards%20are%20absent).'
