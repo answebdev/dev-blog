@@ -12,7 +12,7 @@ This responsive front-end React website was created using React Bootstrap, as we
 * React Bootstrap
 * CSS
 * Prism
-* NPM packages: React Router, React Helmet, bcryptjs, and React-scroll-up-button
+* NPM packages: React Router, React Helmet, and React-scroll-up-button
 * ShareThis
 * Animate.css
 * Font Awesome
