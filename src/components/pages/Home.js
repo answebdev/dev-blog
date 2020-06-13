@@ -27,13 +27,14 @@ const Home = () => {
                 Welcome to CoderGuides. This site is dedicated to guides and
                 notes on various topics related to web development. I originally
                 created these notes to help me throughout my web development
-                journey. But I decided to create this site to leave the notes
-                I've created in hopes of helping others. I realize that there
-                may be more than one way to tackle the problems put forth here,
-                and that these are not the only ways to approach the presented
-                issues. And I know that what may work for some may not work for
-                others. But this is what helped me, and perhaps others may find
-                the information here useful.
+                journey. But I decided to create this site to make the notes
+                I've created available, as well as to add more along the way, in
+                hopes of helping others. I realize that there may be more than
+                one way to tackle the problems put forth here, and that these
+                are not the only ways to approach the presented issues. And I
+                know that what may work for some may not work for others. But
+                this is what helped me, and perhaps others may find the
+                information here useful.
               </p>
               <p>
                 This site is currently divided into two sections: Guides and
