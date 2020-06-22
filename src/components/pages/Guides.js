@@ -47,8 +47,8 @@ const Guides = () => {
                   </Card.Title>
                   <Card.Text>
                     <p>
-                      Add a favicon to your HTML site so that it will appear in
-                      the browser in the tab section next to the page title.
+                      Add a favicon to your HTML site so that it appears in the
+                      browser in the tab section next to the page title.
                       Continue reading to see how to do this.
                     </p>
                   </Card.Text>
