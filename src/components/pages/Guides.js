@@ -5,6 +5,7 @@ import nextGen from '../../img/next-gen.webp';
 import openGraph from '../../img/open-graph.webp';
 import alert from '../../img/alert.webp';
 import customizedTitlesReact from '../../img/customized-titles.webp';
+import favicon from '../../img/favicon.webp';
 // import netlifyForms from '../../img/netlify-forms.webp';
 
 const Guides = () => {
@@ -24,6 +25,47 @@ const Guides = () => {
               <p>Mini-guides on a variety of topics.</p>
               <hr />
               <br />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <Card style={{ marginBottom: '40px' }}>
+                <Card.Body>
+                  <Card.Title>
+                    <Image
+                      src={favicon}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
+                    <strong>Adding a Favicon to Your HTML Site</strong>
+                  </Card.Title>
+                  <Card.Text>
+                    <p>
+                      Add a favicon to your HTML site so that it will appear in
+                      your browser in the tab section next to the page title.
+                      Continue reading to see how to do this.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='/guides/adding-a-favicon-to-your-html-site'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Read More
+                  </Button>
+                </Card.Body>
+                <Card.Footer>
+                  <small className='text-muted'>June 22, 2020</small>
+                </Card.Footer>
+              </Card>
             </Col>
           </Row>
 
