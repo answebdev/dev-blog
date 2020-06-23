@@ -15,6 +15,20 @@
 </head>
 
 <style>
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: grid;
+        height: 90%;
+
+    }
+
     body {
         font-family: 'Quicksand', sans-serif;
         background-color: #ffffff;
@@ -26,10 +40,7 @@
     }
 
     #success-msg {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin: auto;
     }
 
     #back-div {
@@ -45,15 +56,17 @@
 
 
 <body>
-    <div id='success-msg'>
-        <h2 class='text-center'>Thank you!</h2>
-        <br />
-        <p class='text-center'>Your message has been sent.</p>
-        <br />
-        <div id="back-div">
-            <a class='btn btn-success btn-sm' id='back-btn' onclick='history.back()' role='button' href='/contact'>
-                <i class='fas fa-pencil-alt'></i> Back to Form
-            </a>
+    <div class="container">
+        <div id='success-msg'>
+            <h3 class='text-center'>Thank you!</h3>
+            <br />
+            <p class='text-center'>Your message has been sent.</p>
+            <br />
+            <div id="back-div">
+                <a class='btn btn-success btn-sm' id='back-btn' onclick='history.back()' role='button' href='/contact'>
+                    <i class='fas fa-pencil-alt'></i> Back to Form
+                </a>
+            </div>
         </div>
     </div>
 </body>
