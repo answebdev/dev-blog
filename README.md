@@ -30,7 +30,7 @@ https://coderguides.com/
 
 ![Screenshot 02](screenshots/coderguides-screenshot02.png "Home Page")
 
-![Screenshot 03](screenshots/coderguides-screenshot03.png "Guides Page")
+![Screenshot 03](screenshots/coderguides-screenshot03.png "Notes Page")
 
 ![Screenshot 04](screenshots/coderguides-screenshot04.png "Example of Article")
 
