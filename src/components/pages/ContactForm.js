@@ -43,6 +43,7 @@ export class ContactForm extends Component {
                           type='name'
                           name='name'
                           placeholder='Name'
+                          required
                         />
                       </Form.Group>
                       <Form.Group controlId='formBasicEmail'>
@@ -51,6 +52,7 @@ export class ContactForm extends Component {
                           type='email'
                           name='email'
                           placeholder='email@example.com'
+                          required
                         />
                         <Form.Text className='text-muted'>
                           We'll never share your email with anyone else.
@@ -58,7 +60,12 @@ export class ContactForm extends Component {
                       </Form.Group>
                       <Form.Group controlId='exampleForm.ControlTextarea1'>
                         <Form.Label>Message</Form.Label>
-                        <Form.Control as='textarea' name='message' rows='5' />
+                        <Form.Control
+                          as='textarea'
+                          name='message'
+                          rows='5'
+                          required
+                        />
                       </Form.Group>
                       <div className='field'>
                         <div data-netlify-recaptcha='true'></div>
