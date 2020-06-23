@@ -214,19 +214,19 @@ const Favicon = () => {
               </p>
               <br />
               <p>
-                To add this image as the favicon, we need to go to the{' '}
-                {`<head>`} of our code and add the <strong>rel</strong>{' '}
-                attribute value of "icon", along with image file in the{' '}
-                <strong>href</strong> attribute. The <strong>rel</strong>{' '}
-                attribute is used to define the value. In this case, the value
-                is defined as the "icon" representing the current document. Make
-                sure to use the correct path for your image inside the{' '}
-                <strong>href</strong> attribute. In this example, the
-                "mysite.png" image is in a folder called{' '}
+                To add this image as the favicon, we're going to add a line of
+                code to the {`<head>`} section of our code (line 6). We add the{' '}
+                <strong>rel</strong> attribute value of "icon", along with image
+                file in the <strong>href</strong> attribute. The{' '}
+                <strong>rel</strong> attribute is used to define the value. In
+                this case, the value is defined as the "icon" representing the
+                current document. Make sure to use the correct path for your
+                image inside the <strong>href</strong> attribute. In this
+                example, the "mysite.png" image is in a folder called{' '}
                 <strong>images,</strong> which is itself inside a folder called{' '}
-                <strong>assets</strong> (line 6). Make sure to do this for each
-                HTML page of your website, so that the favicon appears on every
-                page in the browser.
+                <strong>assets.</strong> Your code should look like this (line
+                6). Make sure to do this for each HTML page of your website, so
+                that the favicon appears on every page in the browser.
               </p>
               <p>
                 <pre>
@@ -236,7 +236,7 @@ const Favicon = () => {
 
 <head>
   <title>MySite</title>
-  <link rel="icon" href="assets/images/mysite.png">
+  <link rel="icon" type="image/png" href="assets/images/mysite.png">
   -- REST OF CODE --
 </head>`}
                   </code>
