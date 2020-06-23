@@ -221,7 +221,8 @@ a:hover {
   text-align: center;
 }
 
-#error-msg {
+#error-msg,
+#success-msg {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -230,7 +231,9 @@ a:hover {
 
 #guides-btn,
 #notes-btn,
-#error-btn {
+#error-btn,
+#submit-btn,
+#back-btn {
   font-family: 'Quicksand', sans-serif;
   background: #ff6347;
   border-color: #ff6347;
@@ -292,8 +295,20 @@ Source: https://chrisbracco.com/css-sticky-footer-effect/ */
     background-color: steelblue;
   } */
 
+  .navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
   .nav-title {
-    padding-bottom: 0.5em;
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
   }
 }
 
@@ -402,10 +417,14 @@ Source: https://chrisbracco.com/css-sticky-footer-effect/ */
     margin-bottom: -60px;
     font-size: 28px;
   }
+  /* 
+  .navbar a {
+    font-size: 18px;
+  } */
 
-  .nav-link {
+  /* .nav-link {
     font-size: 14px;
-  }
+  } */
 }
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
@@ -436,9 +455,13 @@ Source: https://chrisbracco.com/css-sticky-footer-effect/ */
     font-size: 18px;
   }
 
+  .navbar a {
+    font-size: 12.5px;
+  }
+  /* 
   .nav-link {
     font-size: 12px;
-  }
+  } */
 
   #guides-btn {
     margin-bottom: 10px;

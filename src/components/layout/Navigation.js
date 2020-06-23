@@ -24,6 +24,9 @@ const Navigation = ({ title }) => {
             <li>
               <Link to='/notes'>Notes</Link>
             </li>
+            <li>
+              <Link to='/contact'>Contact</Link>
+            </li>
           </ul>
         </div>
       </div>

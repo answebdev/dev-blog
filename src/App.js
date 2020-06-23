@@ -4,6 +4,8 @@ import LandingPage from './components/pages/LandingPage';
 import Home from './components/pages/Home';
 import Guides from './components/pages/Guides';
 import Notes from './components/pages/Notes';
+import ContactForm from './components/pages/ContactForm';
+import Success from './components/pages/Success';
 import Error from './components/pages/Error';
 import Favicon from './components/pages/Favicon';
 import CustomizeTitle from './components/pages/CustomizeTitle';
@@ -31,6 +33,7 @@ const App = () => {
               <Route exact path='/home' component={Home} />
               <Route exact path='/guides' component={Guides} />
               <Route exact path='/notes' component={Notes} />
+              <Route exact path='/contact' component={ContactForm} />
               <Route
                 exact
                 path='/guides/adding-a-favicon-to-your-html-site'
@@ -71,6 +74,7 @@ const App = () => {
                 path='/notes/how-to-not-render-a-component-on-a-paricular-page-in-react'
                 component={ReactComponents}
               />
+              <Route exact path='/success' component={Success} />
               <Route component={Error} />
             </Switch>
           </div>

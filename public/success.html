@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Link to React Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <title>CoderGuides | Success</title>
+</head>
+
+<style>
+    body {
+        font-family: 'Quicksand', sans-serif;
+        background-color: #ffffff;
+        color: #ff6347;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #success-msg {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #back-div {
+        text-align: center;
+    }
+
+    #back-btn {
+        background: #ff6347;
+        border-color: #ff6347;
+        color: #ffffff;
+    }
+</style>
+
+
+<body>
+    <div id='success-msg'>
+        <h2 class='text-center'>Thank you!</h2>
+        <br />
+        <p class='text-center'>Your message has been sent.</p>
+        <br />
+        <div id="back-div">
+            <a class='btn btn-success btn-sm' id='back-btn' onclick='history.back()' role='button' href='/contact'>
+                <i class='fas fa-pencil-alt'></i> Back to Form
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
