@@ -178,8 +178,9 @@ const NextGen = () => {
                 JPEG or PNG means that they will load faster and consume less
                 cellular data."
               </p>
+
+              <br />
               <p>
-                <br />
                 <strong>Lighthouse</strong>
               </p>
               <p>

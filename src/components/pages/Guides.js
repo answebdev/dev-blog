@@ -6,7 +6,7 @@ import openGraph from '../../img/open-graph.webp';
 import alert from '../../img/alert.webp';
 import customizedTitlesReact from '../../img/customized-titles.webp';
 import favicon from '../../img/favicon.webp';
-// import netlifyForms from '../../img/netlify-forms.webp';
+import currentTime from '../../img/current-time.webp';
 
 const Guides = () => {
   return (
@@ -34,6 +34,52 @@ const Guides = () => {
                 <Card.Body>
                   <Card.Title>
                     <Image
+                      src={currentTime}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
+                    <strong>
+                      How to Display the Current Time and Date and Have it
+                      Update Dynamically
+                    </strong>
+                  </Card.Title>
+                  <Card.Text>
+                    <p>
+                      This guide will go through how to display the current time
+                      and date in the browser of your HTML page. After using
+                      Moment.js to get the current time and date, you'll see how
+                      to display the current time in the browser so that it
+                      updates dynamically every second in real time.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='/guides/how-to-display-the-current-time-and-date-and-have-it-update-dynamically'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Read More
+                  </Button>
+                </Card.Body>
+                <Card.Footer>
+                  <small className='text-muted'>June 27, 2020</small>
+                </Card.Footer>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <Card style={{ marginBottom: '40px' }}>
+                <Card.Body>
+                  <Card.Title>
+                    <Image
                       src={favicon}
                       style={{
                         width: '35%',
@@ -47,9 +93,12 @@ const Guides = () => {
                   </Card.Title>
                   <Card.Text>
                     <p>
-                      Add a favicon to your HTML site so that it appears in the
-                      browser in the tab section next to the page title.
-                      Continue reading to learn how to do this.
+                      After finishing your web application, you'll want to add
+                      your own image or icon that appears in your browser's tab
+                      to distinguish your site from others. In this guide, you
+                      will learn how to add a favicon to your HTML site so that
+                      it appears in the browser in the tab section next to the
+                      page title. Read to learn how.
                     </p>
                   </Card.Text>
                   <Button
@@ -253,59 +302,6 @@ const Guides = () => {
               </Card>
             </Col>
           </Row>
-
-          {/* <Row>
-            <Col md={12}>
-              <Card style={{ marginBottom: '40px' }}>
-                <Card.Body>
-                  <Card.Title>
-                    <Image
-                      src={netlifyForms}
-                      style={{
-                        width: '35%',
-                        height: 'auto',
-                        float: 'right',
-                        marginLeft: '10px',
-                      }}
-                      fluid
-                    />
-                    <strong>Setting up a Netlify Form in React</strong>
-                  </Card.Title>
-                  <Card.Text>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book.
-                    </p>
-                    <p>
-                      It was popularised in the 1960s with the release of
-                      Letraset sheets containing Lorem Ipsum passages, and more
-                      recently with desktop publishing software like Aldus
-                      PageMaker including versions of Lorem Ipsum. It was
-                      popularised in the 1960s with the release of Letraset
-                      sheets containing Lorem Ipsum passages, and more recently
-                      with desktop publishing software like Aldus PageMaker
-                      including versions of Lorem Ipsum.
-                    </p>
-                  </Card.Text>
-                  <Button
-                    className='button'
-                    id='guides-btn'
-                    variant='success'
-                    href='/guides/setting-up-a-netlify-form-in-react'
-                    style={{ marginRight: '5px' }}
-                  >
-                    Read More
-                  </Button>
-                </Card.Body>
-                <Card.Footer>
-                  <small className='text-muted'>June 5, 2020</small>
-                </Card.Footer>
-              </Card>
-            </Col>
-          </Row> */}
         </div>
       </Container>
     </div>

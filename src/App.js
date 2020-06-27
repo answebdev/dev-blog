@@ -7,12 +7,12 @@ import Notes from './components/pages/Notes';
 import ContactForm from './components/pages/ContactForm';
 import Success from './components/pages/Success';
 import Error from './components/pages/Error';
+import CurrentTime from './components/pages/CurrentTime';
 import Favicon from './components/pages/Favicon';
 import CustomizeTitle from './components/pages/CustomizeTitle';
 import AlertMessages from './components/pages/AlertMessages';
 import OpenGraphMetaTags from './components/pages/OpenGraphMetaTags';
 import NextGen from './components/pages/NextGen';
-import NetlifyFormReact from './components/pages/NetlifyFormReact';
 import WhitespaceReact from './components/pages/WhitespaceReact';
 import ReactComponents from './components/pages/ReactComponents';
 
@@ -34,6 +34,11 @@ const App = () => {
               <Route exact path='/guides' component={Guides} />
               <Route exact path='/notes' component={Notes} />
               <Route exact path='/contact' component={ContactForm} />
+              <Route
+                exact
+                path='/guides/how-to-display-the-current-time-and-date-and-have-it-update-dynamically'
+                component={CurrentTime}
+              />
               <Route
                 exact
                 path='/guides/adding-a-favicon-to-your-html-site'
@@ -58,11 +63,6 @@ const App = () => {
                 exact
                 path='/guides/using-next-gen-image-formats-to-enhance-your-apps-performance'
                 component={NextGen}
-              />
-              <Route
-                exact
-                path='/guides/setting-up-a-netlify-form-in-react'
-                component={NetlifyFormReact}
               />
               <Route
                 exact
