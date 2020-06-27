@@ -14,6 +14,7 @@ This responsive front-end React website was created using React Bootstrap, as we
 * Prism
 * NPM packages: React Router, React Helmet, and React-scroll-up-button
 * ShareThis
+* Moment.js
 * Animate.css
 * Font Awesome
 * Google Fonts
