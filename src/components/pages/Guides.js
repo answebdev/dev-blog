@@ -7,6 +7,7 @@ import alert from '../../img/alert.webp';
 import customizedTitlesReact from '../../img/customized-titles.webp';
 import favicon from '../../img/favicon.webp';
 import currentTime from '../../img/current-time.webp';
+import reactRoutes from '../../img/react-routes.webp';
 
 const Guides = () => {
   return (
@@ -34,6 +35,49 @@ const Guides = () => {
                 <Card.Body>
                   <Card.Title>
                     <Image
+                      src={reactRoutes}
+                      style={{
+                        width: '35%',
+                        height: 'auto',
+                        float: 'right',
+                        marginLeft: '10px',
+                      }}
+                      fluid
+                    />
+                    <strong>Creating Routes in React</strong>
+                  </Card.Title>
+                  <Card.Text>
+                    <p>
+                      This guide explains how to create routes in React. We'll
+                      create a simple React app and go through the process of
+                      setting up working routes, as well as go over how to
+                      create an error page. Finally, we will create some simple
+                      links so that we can see our created routes in action.
+                    </p>
+                  </Card.Text>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='/guides/creating-routes-in-react'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Read More
+                  </Button>
+                </Card.Body>
+                <Card.Footer>
+                  <small className='text-muted'>July 18, 2020</small>
+                </Card.Footer>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <Card style={{ marginBottom: '40px' }}>
+                <Card.Body>
+                  <Card.Title>
+                    <Image
                       src={currentTime}
                       style={{
                         width: '35%',
@@ -50,7 +94,7 @@ const Guides = () => {
                   </Card.Title>
                   <Card.Text>
                     <p>
-                      This guide will go through how to display the current time
+                      This guide goes through how to display the current time
                       and date in the browser of your HTML page. After using
                       Moment.js to get the current time and date, you'll see how
                       to display the current time in the browser so that it

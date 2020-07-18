@@ -7,6 +7,7 @@ import Notes from './components/pages/Notes';
 import ContactForm from './components/pages/ContactForm';
 import Success from './components/pages/Success';
 import Error from './components/pages/Error';
+import ReactRoutes from './components/pages/ReactRoutes';
 import CurrentTime from './components/pages/CurrentTime';
 import Favicon from './components/pages/Favicon';
 import CustomizeTitle from './components/pages/CustomizeTitle';
@@ -34,6 +35,11 @@ const App = () => {
               <Route exact path='/guides' component={Guides} />
               <Route exact path='/notes' component={Notes} />
               <Route exact path='/contact' component={ContactForm} />
+              <Route
+                exact
+                path='/guides/creating-routes-in-react'
+                component={ReactRoutes}
+              />
               <Route
                 exact
                 path='/guides/how-to-display-the-current-time-and-date-and-have-it-update-dynamically'
