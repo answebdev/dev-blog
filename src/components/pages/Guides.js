@@ -190,6 +190,9 @@ const Guides = () => {
                       of the different pages of your app? Continue reading to
                       learn how to do this using React Helmet.
                     </p>
+                    <p>
+                      To view this article on Medium, click on the button below.
+                    </p>
                   </Card.Text>
                   <Button
                     className='button'
@@ -199,6 +202,17 @@ const Guides = () => {
                     style={{ marginRight: '5px' }}
                   >
                     Read More
+                  </Button>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='https://medium.com/@adolf.schmuck/how-to-customize-the-title-of-any-page-in-react-45ef14d2a695'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Medium <i class='fab fa-medium'></i>
                   </Button>
                 </Card.Body>
                 <Card.Footer>
