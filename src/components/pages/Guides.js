@@ -207,7 +207,7 @@ const Guides = () => {
                     className='button'
                     id='guides-btn'
                     variant='success'
-                    href='https://medium.com/@adolf.schmuck/how-to-customize-the-title-of-any-page-in-react-45ef14d2a695'
+                    href='https://medium.com/@adolf.schmuck/how-to-customize-the-title-of-any-page-in-react-45ef14d2a695?source=friends_link&sk=bd93fbb0a7bc630be8615877fa588944'
                     rel='noopener noreferrer'
                     target='_blank'
                     style={{ marginRight: '5px' }}
