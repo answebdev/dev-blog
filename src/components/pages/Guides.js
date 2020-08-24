@@ -293,6 +293,9 @@ const Guides = () => {
                       Open Graph meta tags. Click to learn how to add these to
                       your projects.
                     </p>
+                    <p>
+                      To view this article on Medium, click on the button below.
+                    </p>
                   </Card.Text>
                   <Button
                     className='button'
@@ -302,6 +305,17 @@ const Guides = () => {
                     style={{ marginRight: '5px' }}
                   >
                     Read More
+                  </Button>
+                  <Button
+                    className='button'
+                    id='guides-btn'
+                    variant='success'
+                    href='https://medium.com/@adolf.schmuck/adding-open-graph-meta-tags-to-your-app-or-website-f415ae5fff71?source=friends_link&sk=ef97bc5b0535a289ca23445ebe7339e1'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                    style={{ marginRight: '5px' }}
+                  >
+                    Medium <i class='fab fa-medium'></i>
                   </Button>
                 </Card.Body>
                 <Card.Footer>
