@@ -16,7 +16,6 @@ import OpenGraphMetaTags from './components/pages/OpenGraphMetaTags';
 import NextGen from './components/pages/NextGen';
 import WhitespaceReact from './components/pages/WhitespaceReact';
 import ReactComponents from './components/pages/ReactComponents';
-
 import Navigation from './components/layout/Navigation';
 import Footer from './components/layout/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';

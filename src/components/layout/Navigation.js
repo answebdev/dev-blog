@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../layout/dev-logo.png';
+import logo from '../layout/dev-logo.webp';
 
 const Navigation = ({ title }) => {
   return (
