@@ -13,13 +13,33 @@ const Home = () => {
           name='description'
           content='CoderGuides is dedicated to guides and notes on various topics related to web development.'
         />
-        <meta property='og:image' content={ogimage} />
-        <meta property='og:image:type' content='image/png' />
-        <meta property='og:image:width' content='1024' />
-        <meta property='og:image:height' content='1024' />
-        <meta property='og:type' content='article' />
-        <meta property='og:url' content='https://coderguides.com/home' />
-        <meta property='og:title' content='CoderGuides | Home' />
+        <meta property='og:image' content={ogimage} data-react-helmet='true' />
+        <meta
+          property='og:image:type'
+          content='image/png'
+          data-react-helmet='true'
+        />
+        <meta
+          property='og:image:width'
+          content='1024'
+          data-react-helmet='true'
+        />
+        <meta
+          property='og:image:height'
+          content='1024'
+          data-react-helmet='true'
+        />
+        <meta property='og:type' content='article' data-react-helmet='true' />
+        <meta
+          property='og:url'
+          content='https://coderguides.com/home'
+          data-react-helmet='true'
+        />
+        <meta
+          property='og:title'
+          content='CoderGuides | Home'
+          data-react-helmet='true'
+        />
         <meta
           property='og:description'
           content='Guides and notes on various topics related to web development.'
