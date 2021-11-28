@@ -19,7 +19,7 @@ This responsive front-end React website was created using React Bootstrap, as we
 * Font Awesome
 * Google Fonts
 
-# CoderGudies Live Link
+# CoderGuides Live Link
 
 Please check out the live link for CoderGuides here:
 
