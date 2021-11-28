@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import ogimage from '../../img/cg-og.png';
 import coderguides from '../../img/CoderGuides.webp';
 
 const Home = () => {
@@ -9,21 +8,6 @@ const Home = () => {
     <div>
       <Helmet>
         <title>CoderGuides | Home</title>
-        <meta
-          name='description'
-          content='CoderGuides is dedicated to guides and notes on various topics related to web development.'
-        />
-        <meta property='og:image' content={ogimage} />
-        <meta property='og:image:type' content='image/png' />
-        <meta property='og:image:width' content='1024' />
-        <meta property='og:image:height' content='1024' />
-        <meta property='og:type' content='article' />
-        <meta property='og:url' content='https://coderguides.com/home' />
-        <meta property='og:title' content='CoderGuides | Home' />
-        <meta
-          property='og:description'
-          content='Guides and notes on various topics related to web development.'
-        />
       </Helmet>
       <Container className='container' fluid>
         <br />
