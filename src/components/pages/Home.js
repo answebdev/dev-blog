@@ -9,10 +9,7 @@ const Home = () => {
     <div>
       <Helmet>
         <title>CoderGuides | Home</title>
-        <meta
-          name='description'
-          content='CoderGuides is dedicated to guides and notes on various topics related to web development.'
-        />
+
         <meta property='og:image' content={ogimage} />
         <meta property='og:image:type' content='image/png' />
         <meta property='og:image:width' content='1024' />
@@ -23,6 +20,11 @@ const Home = () => {
         <meta
           property='og:description'
           content='Guides and notes on various topics related to web development.'
+        />
+
+        <meta
+          name='description'
+          content='CoderGuides is dedicated to guides and notes on various topics related to web development.'
         />
       </Helmet>
       <Container className='container' fluid>
